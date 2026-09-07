@@ -1,0 +1,34 @@
+# ---------------------------------------------------------
+# Python virtual environment
+# We don't upload our local Python environment to GitHub.
+# ---------------------------------------------------------
+.venv/
+
+# Python generated cache files
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------
+# React / Node generated files
+# node_modules contains installed packages and can be
+# recreated using npm install.
+# ---------------------------------------------------------
+node_modules/
+frontend/node_modules/
+Milestone1/frontend/node_modules/
+
+# ---------------------------------------------------------
+# Local environment / secret files
+# ---------------------------------------------------------
+.env
+.env.*
+
+# ---------------------------------------------------------
+# Editor / operating-system files
+# ---------------------------------------------------------
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore the old Springboard Mentor cloned repository
+AI-Powered-Small-Business-Sales-Forecasting-and-Revenue-Growth-Intelligence-Platform/
