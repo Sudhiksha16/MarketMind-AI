@@ -48,6 +48,7 @@ sales_df = sales_df.drop_duplicates()
 # Convert InvoiceDate to datetime
 sales_df["InvoiceDate"] = pd.to_datetime(
     sales_df["InvoiceDate"],
+    dayfirst=True,
     errors="coerce"
 )
 

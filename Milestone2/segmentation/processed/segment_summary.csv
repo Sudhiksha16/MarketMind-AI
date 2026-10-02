@@ -1,0 +1,5 @@
+customer_segment,customer_count,average_purchase_frequency,average_purchase_value,average_activity_days
+At-Risk / Fading Customers,1134,1.64,518.62,240.41
+Loyal / High-Value Customers,147,24.44,14435.46,13.63
+Regular Customers,3042,3.89,1479.41,40.23
+VIP Customers,15,83.47,111780.64,5.73

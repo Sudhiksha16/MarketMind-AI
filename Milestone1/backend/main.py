@@ -30,21 +30,22 @@ import pandas as pd
 # --------------------------------------------------
 
 # This creates our MarketMind AI backend application.
-#
-# FastAPI will allow our React frontend to communicate
-# with the backend using API endpoints.
-
 app = FastAPI(
     title="MarketMind AI API",
     description="Small Business Sales Intelligence Platform",
     version="1.0.0"
 )
 
-# Register the authentication routes with FastAPI.
-#
+
+# --------------------------------------------------
+# Register Authentication Routes
+# --------------------------------------------------
+
 # This makes our login endpoint available at:
 # http://127.0.0.1:8000/auth/login
+
 app.include_router(auth_router)
+
 
 # --------------------------------------------------
 # Allow React Frontend to communicate with FastAPI
@@ -76,26 +77,38 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 # --------------------------------------------------
-# STEP 3: Find the Milestone1 folder
+# STEP 3: Find the project folders
 # --------------------------------------------------
 
 # __file__ means this current Python file:
-#     Milestone1/backend/main.py
+#
+# MarketMind AI
+#     └── Milestone1
+#           └── backend
+#                 └── main.py
 #
 # .parent gives us:
 #     Milestone1/backend
 #
-# Another .parent gives us:
+# .parent.parent gives us:
 #     Milestone1
 #
-# So BASE_DIR represents our Milestone1 folder.
+# .parent.parent.parent gives us:
+#     MarketMind AI
+#
+# We keep BASE_DIR for Milestone 1 files.
+# We use PROJECT_ROOT for Milestone 2 files.
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+PROJECT_ROOT = BASE_DIR.parent
+
 
 # --------------------------------------------------
-# STEP 4: Tell Python where our cleaned datasets are
+# STEP 4: Tell Python where our Milestone 1
+# cleaned datasets are
 # --------------------------------------------------
 
 # Our cleaned files are stored here:
@@ -103,9 +116,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Milestone1
 #     └── preprocessing
 #           └── processed
-#
-# We are NOT using the original datasets directly.
-# We are using the cleaned datasets created during Day 5–6.
 
 SALES_FILE = (
     BASE_DIR
@@ -130,21 +140,52 @@ INVENTORY_FILE = (
 
 
 # --------------------------------------------------
-# STEP 5: Create the Home API
+# STEP 5: Milestone 2 file paths
 # --------------------------------------------------
 
-# @app.get("/") means:
+# Milestone 2 customer segmentation results:
 #
-# When someone visits:
-#     http://127.0.0.1:8000/
+# MarketMind AI
+#     └── Milestone2
+#           └── segmentation
+#                 └── processed
+#                       └── segment_summary.csv
+
+SEGMENT_FILE = (
+    PROJECT_ROOT
+    / "Milestone2"
+    / "segmentation"
+    / "processed"
+    / "segment_summary.csv"
+)
+
+
+# Milestone 2 Prophet forecasting results:
 #
-# FastAPI will run the function below.
+# MarketMind AI
+#     └── Milestone2
+#           └── forecasting
+#                 └── processed
+#                       └── prophet_forecast.csv
+
+FORECAST_FILE = (
+    PROJECT_ROOT
+    / "Milestone2"
+    / "forecasting"
+    / "processed"
+    / "prophet_forecast.csv"
+)
+
+
+# --------------------------------------------------
+# STEP 6: Create the Home API
+# --------------------------------------------------
 
 @app.get("/")
 def root():
 
-    # We return a simple JSON response.
-    # This lets us check whether our backend is running.
+    # Return a simple response to confirm
+    # that the backend is running.
 
     return {
         "message": "MarketMind AI backend is running",
@@ -153,86 +194,33 @@ def root():
 
 
 # --------------------------------------------------
-# STEP 6: Create the Sales Summary API
+# STEP 7: Create the Sales Summary API
 # --------------------------------------------------
-
-# This endpoint will be used by our dashboard
-# to get basic sales information.
-#
-# URL:
-#     /sales/summary
 
 @app.get("/sales/summary")
 def sales_summary():
 
     # Read our cleaned sales CSV file.
-    #
-    # Pandas loads the CSV into a DataFrame.
-    # A DataFrame is basically a table in Python.
-
     df = pd.read_csv(SALES_FILE)
 
-
-    # --------------------------------------------------
-    # Calculate total revenue
-    # --------------------------------------------------
-
-    # TotalAmount was created during our cleaning stage:
-    #
-    # TotalAmount = Quantity × UnitPrice
-    #
-    # .sum() adds all transaction amounts together.
-
+    # Total revenue.
     total_revenue = df["TotalAmount"].sum()
 
-
-    # --------------------------------------------------
-    # Count total sales records
-    # --------------------------------------------------
-
-    # len(df) tells us how many rows are present
-    # in the cleaned sales dataset.
-
+    # Count total cleaned sales records.
     total_orders = len(df)
 
-
-    # --------------------------------------------------
-    # Calculate total quantity sold
-    # --------------------------------------------------
-
-    # Quantity contains the number of products sold
-    # in each transaction.
-    #
-    # .sum() gives us the total number of products sold.
-
+    # Total quantity sold.
     total_quantity = df["Quantity"].sum()
 
-
-    # --------------------------------------------------
-    # Find the top-selling product
-    # --------------------------------------------------
-
-    # First, group the data by product description.
-    #
-    # Then add the quantity sold for each product.
-    #
-    # idxmax() finds the product with the highest
+    # Find the top-selling product based on
     # total quantity sold.
-
     top_product = (
         df.groupby("Description")["Quantity"]
         .sum()
         .idxmax()
     )
 
-
-    # --------------------------------------------------
-    # Send the result back to the frontend
-    # --------------------------------------------------
-
-    # FastAPI automatically converts this dictionary
-    # into JSON.
-
+    # Return the results as JSON.
     return {
         "total_revenue": round(float(total_revenue), 2),
         "total_orders": int(total_orders),
@@ -242,31 +230,22 @@ def sales_summary():
 
 
 # --------------------------------------------------
-# STEP 7: Create the Sales Trend API
+# STEP 8: Create the Sales Trend API
 # --------------------------------------------------
-
-# This endpoint will provide sales information
-# that we can later display as a chart.
 
 @app.get("/sales/trend")
 def sales_trend():
 
     # Load the cleaned sales data.
-
     df = pd.read_csv(SALES_FILE)
 
-
-    # Convert InvoiceDate from text into
-    # an actual date/time value.
-
+    # Convert InvoiceDate into datetime.
     df["InvoiceDate"] = pd.to_datetime(
         df["InvoiceDate"]
     )
 
-
     # Group sales by date and calculate
-    # the total revenue for each day.
-
+    # total revenue for each date.
     trend = (
         df.groupby(
             df["InvoiceDate"].dt.date
@@ -275,27 +254,16 @@ def sales_trend():
         .reset_index()
     )
 
-
-    # Rename the columns to simple names
-    # that are easier for the frontend to use.
-
+    # Rename columns for frontend use.
     trend.columns = [
         "date",
         "revenue"
     ]
 
-
-    # Keep only the latest 30 days.
-    #
-    # This gives us the basic 30-day sales trend
-    # required for our dashboard.
-
+    # Keep the latest 30 available sales dates.
     trend = trend.tail(30)
 
-
-    # Convert the DataFrame into a list of dictionaries
-    # so FastAPI can return it as JSON.
-
+    # Convert the DataFrame into JSON.
     return {
         "sales_trend": trend.to_dict(
             orient="records"
@@ -304,67 +272,43 @@ def sales_trend():
 
 
 # --------------------------------------------------
-# STEP 8: Create the Inventory Alerts API
+# STEP 9: Create the Inventory Alerts API
 # --------------------------------------------------
-
-# This endpoint will identify products that need
-# inventory attention.
 
 @app.get("/inventory/alerts")
 def inventory_alerts():
 
     # Load the cleaned inventory dataset.
-
     df = pd.read_csv(INVENTORY_FILE)
 
-
-    # Find records where inventory is low.
+    # Identify low-stock records.
     #
-    # Here we compare the current Inventory Level
-    # with Units Ordered.
-
+    # We compare Inventory Level with Units Ordered.
     low_stock = df[
         df["Inventory Level"]
         <= df["Units Ordered"]
     ]
 
-
-    # These are the columns we would like
-    # to show on the dashboard.
-
+    # Columns we want to display.
     columns = [
         "Product ID",
         "Product Name",
         "Inventory Level"
     ]
 
-
-    # Some datasets may not contain all of these
-    # columns.
-    #
-    # So we keep only the columns that actually exist.
-
+    # Keep only columns that actually exist.
     available_columns = [
         column
         for column in columns
         if column in low_stock.columns
     ]
 
-
     low_stock = low_stock[
         available_columns
     ]
 
-
-    # We don't want to return thousands of records
-    # to the dashboard.
-    #
-    # For now, return only the first 20 alerts.
-
+    # Return only the first 20 alerts.
     low_stock = low_stock.head(20)
-
-
-    # Return the low-stock information as JSON.
 
     return {
         "low_stock_products":
@@ -375,32 +319,20 @@ def inventory_alerts():
 
 
 # --------------------------------------------------
-# STEP 9: Create the Customer Summary API
+# STEP 10: Create the Customer Summary API
 # --------------------------------------------------
-
-# This endpoint provides basic customer information
-# for the dashboard.
 
 @app.get("/customers/summary")
 def customer_summary():
 
     # Load our cleaned customer dataset.
-
     df = pd.read_csv(CUSTOMER_FILE)
 
-
-    # Count the number of customers.
-
+    # Count customers.
     total_customers = len(df)
 
-
-    # Count how many different countries
-    # are represented in the customer data.
-
+    # Count different countries.
     countries = df["Country"].nunique()
-
-
-    # Return the results as JSON.
 
     return {
         "total_customers": int(total_customers),
@@ -409,11 +341,8 @@ def customer_summary():
 
 
 # --------------------------------------------------
-# STEP 10: Create a Health Check API
+# STEP 11: Create a Health Check API
 # --------------------------------------------------
-
-# This endpoint helps us check whether our backend
-# and required data files are available.
 
 @app.get("/health")
 def health_check():
@@ -422,23 +351,125 @@ def health_check():
         "status": "healthy",
 
         # True means the file exists.
-        # False means the file cannot be found.
-
         "sales_data": SALES_FILE.exists(),
+
         "customer_data": CUSTOMER_FILE.exists(),
-        "inventory_data": INVENTORY_FILE.exists()
+
+        "inventory_data": INVENTORY_FILE.exists(),
+
+        # Milestone 2 files
+        "segment_data": SEGMENT_FILE.exists(),
+
+        "forecast_data": FORECAST_FILE.exists()
     }
 
-# ---------------------------------------------------------
+
+# ==================================================
+# MILESTONE 2
+# CUSTOMER SEGMENTATION API
+# ==================================================
+
+@app.get("/segments")
+def get_customer_segments():
+
+    # Check whether the Milestone 2 segmentation file exists.
+    if not SEGMENT_FILE.exists():
+        return {
+            "error": "Customer segmentation file not found"
+        }
+
+    # Load the segment summary generated by
+    # analyze_segments.py.
+    segment_df = pd.read_csv(
+        SEGMENT_FILE
+    )
+
+    # Convert the DataFrame into JSON.
+    return segment_df.to_dict(
+        orient="records"
+    )
+
+
+# ==================================================
+# MILESTONE 2
+# REVENUE FORECAST API
+# ==================================================
+
+@app.get("/forecast/revenue")
+def get_revenue_forecast(
+    user=Depends(
+        require_role([
+            "Business Owner",
+            "Store Manager",
+            "Administrator"
+        ])
+    )
+):
+
+    # Check whether the forecast file exists.
+    if not FORECAST_FILE.exists():
+        return {
+            "error": "Forecast file not found"
+        }
+
+    # Load the Prophet forecast.
+    forecast_df = pd.read_csv(
+        FORECAST_FILE
+    )
+
+    # Convert forecast date to datetime.
+    forecast_df["ds"] = pd.to_datetime(
+        forecast_df["ds"]
+    )
+
+    # The final 30 records represent
+    # the 30-day future forecast generated
+    # by our Prophet model.
+    future_forecast = forecast_df.tail(30).copy()
+
+    # Calculate the total predicted revenue
+    # for the forecast period.
+    predicted_revenue = (
+        future_forecast["yhat"].sum()
+    )
+
+    return {
+        "period": "Next 30 Days",
+
+        "predicted_revenue": round(
+            float(predicted_revenue),
+            2
+        ),
+
+        "model_used": "Prophet",
+
+        # Return the detailed forecast too,
+        # so the React dashboard can later
+        # display the forecast trend.
+        "forecast": future_forecast[
+            [
+                "ds",
+                "yhat",
+                "yhat_lower",
+                "yhat_upper"
+            ]
+        ].to_dict(
+            orient="records"
+        )
+    }
+
+
+# ==================================================
+# MILESTONE 1
 # PROTECTED BUSINESS ANALYTICS ENDPOINT
-# ---------------------------------------------------------
+# ==================================================
+
 # Only these roles can access this endpoint:
 #
 # Business Owner
 # Store Manager
 #
-# Sales Executive and Administrator will be denied.
-# ---------------------------------------------------------
+# Sales Executive and Administrator are denied.
 
 @app.get("/protected/business-analytics")
 def protected_business_analytics(
@@ -450,9 +481,13 @@ def protected_business_analytics(
     )
 ):
 
-    # If the user's role is allowed, this message is returned.
     return {
-        "message": "You can access business analytics",
-        "user_email": user["email"],
-        "role": user["role"]
+        "message":
+            "You can access business analytics",
+
+        "user_email":
+            user["email"],
+
+        "role":
+            user["role"]
     }

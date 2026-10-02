@@ -1,113 +1,177 @@
 /* ==================================================
-   MARKETMIND AI - DASHBOARD STYLES
+   MARKETMIND AI - MILESTONE 2 DASHBOARD
    ================================================== */
 
 
 /* --------------------------------------------------
-   1. Basic page settings
+   1. GLOBAL SETTINGS
    -------------------------------------------------- */
 
-/* Remove the default browser spacing. */
 * {
   box-sizing: border-box;
 }
 
-/* Main page appearance. */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
   background: #f4f6f8;
+
   color: #1f2937;
 }
 
 
 /* --------------------------------------------------
-   2. Main application container
+   2. MAIN APPLICATION
    -------------------------------------------------- */
 
 .app {
   min-height: 100vh;
+
+  max-width: 1250px;
+
+  margin: 0 auto;
+
   padding: 30px;
 }
 
 
 /* --------------------------------------------------
-   3. Header
+   3. HEADER
    -------------------------------------------------- */
 
 .header {
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
 
-  background: white;
-  padding: 25px 30px;
-  border-radius: 14px;
+  background: #ffffff;
+
+  padding: 28px 32px;
+
+  border-radius: 16px;
 
   margin-bottom: 25px;
 
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.08);
 }
+
+
+/* Main project title */
 
 .header h1 {
   margin: 0;
+
   font-size: 32px;
+
+  font-weight: 700;
+
+  color: #111827 !important;
 }
 
+
+/* Project subtitle */
+
 .header p {
-  margin: 7px 0 0;
-  color: #6b7280;
+  margin: 8px 0 0;
+
+  color: #6b7280 !important;
+
   font-size: 15px;
 }
 
+
+/* Milestone label */
+
 .user-info {
-  padding: 10px 18px;
-  border-radius: 8px;
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
   background: #eef2ff;
-  font-weight: bold;
+
+  color: #3730a3 !important;
+
+  font-weight: 700;
+
+  font-size: 14px;
 }
 
 
 /* --------------------------------------------------
-   4. Summary cards
+   4. SUMMARY CARDS
    -------------------------------------------------- */
 
 .cards {
   display: grid;
 
-  /* Four cards on a large screen. */
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns:
+    repeat(4, 1fr);
 
   gap: 20px;
 
   margin-bottom: 25px;
 }
 
-.card {
-  background: white;
 
-  padding: 22px;
+.card {
+  background: #ffffff;
+
+  padding: 24px;
 
   border-radius: 14px;
 
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.08);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
+
+
+/* Small hover effect */
+
+.card:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 20px rgba(0, 0, 0, 0.10);
+}
+
 
 .card h3 {
   margin: 0 0 12px;
 
   font-size: 15px;
 
-  color: #6b7280;
+  color: #4b5563 !important;
+
+  font-weight: 600;
 }
+
 
 .card .value {
   margin: 0;
 
   font-size: 28px;
 
-  font-weight: bold;
+  font-weight: 700;
+
+  color: #111827 !important;
 }
+
 
 .card span {
   display: block;
@@ -116,18 +180,19 @@ body {
 
   font-size: 13px;
 
-  color: #9ca3af;
+  color: #6b7280 !important;
 }
 
 
 /* --------------------------------------------------
-   5. Dashboard grid
+   5. DASHBOARD GRID
    -------------------------------------------------- */
 
 .dashboard-grid {
   display: grid;
 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:
+    1fr 1fr;
 
   gap: 20px;
 
@@ -136,18 +201,24 @@ body {
 
 
 /* --------------------------------------------------
-   6. Dashboard panels
+   6. GENERAL PANELS
    -------------------------------------------------- */
 
 .panel {
-  background: white;
+  background: #ffffff;
 
   padding: 25px;
 
-  border-radius: 14px;
+  border-radius: 16px;
 
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.08);
 }
+
+
+/* Main panel headings */
 
 .panel h2 {
   margin-top: 0;
@@ -155,34 +226,49 @@ body {
   margin-bottom: 8px;
 
   font-size: 21px;
+
+  font-weight: 700;
+
+  color: #111827 !important;
+
+  opacity: 1 !important;
 }
 
+
+/* Panel description */
+
 .panel > p {
-  color: #6b7280;
+  color: #6b7280 !important;
 
   margin-top: 0;
+
+  font-size: 14px;
+
+  opacity: 1 !important;
 }
 
 
 /* --------------------------------------------------
-   7. Top product
+   7. TOP PRODUCT
    -------------------------------------------------- */
 
 .top-product {
   font-size: 22px !important;
 
-  font-weight: bold;
+  font-weight: 700;
 
   color: #111827 !important;
 
   margin-top: 25px !important;
 
   word-break: break-word;
+
+  opacity: 1 !important;
 }
 
 
 /* --------------------------------------------------
-   8. Inventory alerts
+   8. INVENTORY ALERTS
    -------------------------------------------------- */
 
 .inventory-list {
@@ -191,7 +277,10 @@ body {
   max-height: 300px;
 
   overflow-y: auto;
+
+  padding-right: 4px;
 }
+
 
 .inventory-item {
   display: flex;
@@ -200,35 +289,41 @@ body {
 
   align-items: center;
 
-  padding: 12px 14px;
+  padding: 13px 15px;
 
   margin-bottom: 8px;
 
   background: #fff7ed;
 
-  border-left: 4px solid #f97316;
+  border-left:
+    4px solid #f97316;
 
-  border-radius: 6px;
+  border-radius: 7px;
 }
+
 
 .inventory-item strong {
   font-size: 14px;
+
+  color: #111827 !important;
 }
+
 
 .inventory-item span {
   font-size: 13px;
 
-  color: #6b7280;
+  color: #6b7280 !important;
 }
 
 
 /* --------------------------------------------------
-   9. Sales trend
+   9. SALES TREND
    -------------------------------------------------- */
 
 .sales-panel {
   margin-bottom: 25px;
 }
+
 
 .trend-list {
   margin-top: 20px;
@@ -236,7 +331,10 @@ body {
   max-height: 350px;
 
   overflow-y: auto;
+
+  padding-right: 4px;
 }
+
 
 .trend-item {
   display: flex;
@@ -245,28 +343,125 @@ body {
 
   align-items: center;
 
-  padding: 12px 15px;
+  padding: 13px 15px;
 
   margin-bottom: 7px;
 
   background: #f8fafc;
 
-  border-radius: 7px;
+  border: 1px solid #e5e7eb;
+
+  border-radius: 8px;
 }
+
 
 .trend-item span {
-  color: #6b7280;
+  color: #4b5563 !important;
 
   font-size: 14px;
+
+  opacity: 1 !important;
 }
+
 
 .trend-item strong {
   font-size: 14px;
+
+  color: #111827 !important;
 }
 
 
 /* --------------------------------------------------
-   10. Error message
+   10. CUSTOMER SEGMENTATION
+   -------------------------------------------------- */
+
+
+/* Segment list item */
+
+.trend-item:hover {
+  background: #f1f5f9;
+}
+
+
+/* Segment detail panels */
+
+.dashboard-grid .panel p {
+  color: #4b5563 !important;
+
+  opacity: 1 !important;
+
+  line-height: 1.6;
+}
+
+
+/* --------------------------------------------------
+   11. REVENUE FORECAST
+   -------------------------------------------------- */
+
+.sales-panel .card {
+  margin-top: 20px;
+
+  text-align: center;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+
+.sales-panel .card h3 {
+  color: #374151 !important;
+}
+
+
+.sales-panel .card .value {
+  color: #111827 !important;
+
+  font-size: 32px;
+}
+
+
+/* Forecast model name */
+
+.sales-panel .card span {
+  color: #6b7280 !important;
+}
+
+
+/* --------------------------------------------------
+   12. SCROLLBARS
+   -------------------------------------------------- */
+
+.inventory-list::-webkit-scrollbar,
+.trend-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.inventory-list::-webkit-scrollbar-track,
+.trend-list::-webkit-scrollbar-track {
+  background: #f1f5f9;
+
+  border-radius: 10px;
+}
+
+
+.inventory-list::-webkit-scrollbar-thumb,
+.trend-list::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+
+  border-radius: 10px;
+}
+
+
+.inventory-list::-webkit-scrollbar-thumb:hover,
+.trend-list::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+
+/* --------------------------------------------------
+   13. ERROR MESSAGE
    -------------------------------------------------- */
 
 .error {
@@ -274,14 +469,16 @@ body {
 
   background: #fee2e2;
 
-  color: #991b1b;
+  color: #991b1b !important;
 
   border-radius: 8px;
+
+  font-weight: 600;
 }
 
 
 /* --------------------------------------------------
-   11. Footer
+   14. FOOTER
    -------------------------------------------------- */
 
 footer {
@@ -289,25 +486,24 @@ footer {
 
   padding: 20px;
 
-  color: #6b7280;
+  color: #6b7280 !important;
 
   font-size: 13px;
 }
 
 
-/* ==================================================
-   12. Responsive design
-   ================================================== */
+/* --------------------------------------------------
+   15. RESPONSIVE DESIGN
+   -------------------------------------------------- */
 
-/*
-   When the screen becomes smaller,
-   change four cards into two cards.
-*/
+
+/* Tablets */
 
 @media (max-width: 1000px) {
 
   .cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:
+      repeat(2, 1fr);
   }
 
   .dashboard-grid {
@@ -316,16 +512,14 @@ footer {
 }
 
 
-/*
-   On mobile screens,
-   display everything in one column.
-*/
+/* Mobile */
 
 @media (max-width: 600px) {
 
   .app {
     padding: 15px;
   }
+
 
   .header {
     flex-direction: column;
@@ -335,15 +529,33 @@ footer {
     gap: 15px;
   }
 
+
   .header h1 {
     font-size: 26px;
   }
+
 
   .cards {
     grid-template-columns: 1fr;
   }
 
+
   .card .value {
     font-size: 24px;
+  }
+
+
+  .panel {
+    padding: 20px;
+  }
+
+
+  .panel h2 {
+    font-size: 19px;
+  }
+
+
+  .trend-item {
+    gap: 10px;
   }
 }
