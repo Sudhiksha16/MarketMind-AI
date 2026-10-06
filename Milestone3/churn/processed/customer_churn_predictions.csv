@@ -1,0 +1,869 @@
+CustomerID,order_frequency,purchase_inactivity_days,avg_order_value,actual_churn,churn_probability,retention_risk,customer_segment
+14836,3,10,17.075,0,0.0,Low Risk,Regular Customers
+15090,1,308,16.57913043478261,1,1.0,High Risk,At-Risk / Fading Customers
+12381,5,5,21.21045977011494,0,0.0,Low Risk,Regular Customers
+13999,12,10,18.758701923076924,0,0.0,Low Risk,Regular Customers
+13139,7,16,29.79376470588236,0,0.0,Low Risk,Regular Customers
+14456,9,5,3.1861457233368533,0,0.0,Low Risk,Regular Customers
+12837,1,173,11.175,1,1.0,High Risk,At-Risk / Fading Customers
+15755,6,10,16.7677304964539,0,0.0,Low Risk,Regular Customers
+17654,1,277,5.343181818181818,1,1.0,High Risk,At-Risk / Fading Customers
+15023,11,3,12.152640144665462,0,0.0,Low Risk,Regular Customers
+15965,4,17,7.287117117117117,0,0.0,Low Risk,Regular Customers
+17371,3,17,4.865116279069767,0,0.0,Low Risk,Regular Customers
+17682,6,10,20.968898305084743,0,0.0,Low Risk,Regular Customers
+15381,2,214,74.60625,1,1.0,High Risk,At-Risk / Fading Customers
+15505,5,53,37.22639175257732,0,0.0,Low Risk,Regular Customers
+13662,3,86,16.947307692307692,0,0.0,Low Risk,Regular Customers
+14779,3,281,9.418292682926827,1,1.0,High Risk,At-Risk / Fading Customers
+15480,1,116,20.122222222222224,1,1.0,High Risk,Regular Customers
+14437,1,366,12.6,1,1.0,High Risk,At-Risk / Fading Customers
+17527,4,54,19.98659574468085,0,0.0,Low Risk,Regular Customers
+15768,3,116,23.030740740740743,1,1.0,High Risk,Regular Customers
+17345,4,15,6.261325301204819,0,0.0,Low Risk,Regular Customers
+12346,1,326,77183.6,1,0.95,High Risk,Loyal / High-Value Customers
+16380,1,61,56.23064516129032,0,0.0,Low Risk,Regular Customers
+14218,1,43,14.123333333333337,0,0.0,Low Risk,Regular Customers
+12571,2,40,15.28264705882353,0,0.0,Low Risk,Regular Customers
+13941,5,22,113.62133333333334,0,0.0,Low Risk,Regular Customers
+15690,2,4,12.618947368421052,0,0.03,Low Risk,Regular Customers
+15990,2,44,15.232884615384616,0,0.0,Low Risk,Regular Customers
+17609,5,41,4.745836909871245,0,0.0,Low Risk,Regular Customers
+15587,4,50,101.52,0,0.0,Low Risk,Regular Customers
+15812,5,107,43.930243902439024,1,0.97,High Risk,Regular Customers
+13210,1,94,16.067272727272726,1,0.99,High Risk,Regular Customers
+15500,4,8,16.640588235294118,0,0.0,Low Risk,Regular Customers
+12500,11,23,69.80032786885245,0,0.0,Low Risk,Regular Customers
+16801,4,163,21.2564,1,1.0,High Risk,At-Risk / Fading Customers
+12659,1,30,18.336,0,0.0,Low Risk,Regular Customers
+17924,7,12,95.56451612903226,0,0.0,Low Risk,Regular Customers
+17220,14,24,6.8255888650963605,0,0.0,Low Risk,Regular Customers
+14815,2,37,14.68867924528302,0,0.0,Low Risk,Regular Customers
+15901,3,17,3.168738738738739,0,0.0,Low Risk,Regular Customers
+17969,2,166,16.3,1,0.98,High Risk,At-Risk / Fading Customers
+17233,1,35,7.6352,0,0.0,Low Risk,Regular Customers
+13365,2,34,17.385703125,0,0.0,Low Risk,Regular Customers
+14164,2,71,56.26793103448276,0,0.0,Low Risk,Regular Customers
+18034,2,22,3.8061818181818174,0,0.0,Low Risk,Regular Customers
+14837,4,90,15.273148148148149,0,0.02,Low Risk,Regular Customers
+14297,4,18,21.053709677419352,0,0.01,Low Risk,Regular Customers
+17873,5,80,42.99906976744186,0,0.0,Low Risk,Regular Customers
+13269,15,1,16.96279365079365,0,0.0,Low Risk,Regular Customers
+17843,1,303,5.553513513513513,1,1.0,High Risk,At-Risk / Fading Customers
+16739,1,177,24.846153846153847,1,1.0,High Risk,At-Risk / Fading Customers
+13435,7,5,37.72168316831683,0,0.0,Low Risk,Regular Customers
+17415,1,80,36.27428571428571,0,0.0,Low Risk,Regular Customers
+18158,2,9,13.335294117647058,0,0.0,Low Risk,Regular Customers
+13067,1,82,7.697333333333334,0,0.0,Low Risk,Regular Customers
+13811,3,184,62.65384615384615,1,1.0,High Risk,At-Risk / Fading Customers
+14793,1,21,16.356428571428573,0,0.01,Low Risk,Regular Customers
+15923,1,373,6.051428571428572,1,1.0,High Risk,At-Risk / Fading Customers
+15241,8,67,15.967636363636364,0,0.0,Low Risk,Regular Customers
+14890,1,254,17.95,1,1.0,High Risk,At-Risk / Fading Customers
+15127,1,66,25.408125,0,0.0,Low Risk,Regular Customers
+17409,2,185,59.37307692307692,1,1.0,High Risk,At-Risk / Fading Customers
+16243,2,34,8.02156862745098,0,0.0,Low Risk,Regular Customers
+13670,1,75,13.988,0,0.0,Low Risk,Regular Customers
+16553,12,163,68.09309523809523,1,0.93,High Risk,Regular Customers
+17906,1,247,6.075,1,1.0,High Risk,At-Risk / Fading Customers
+14145,4,47,340.2,0,0.02,Low Risk,Regular Customers
+15646,3,158,12.789714285714288,1,1.0,High Risk,At-Risk / Fading Customers
+12910,8,23,41.00053333333333,0,0.03,Low Risk,Regular Customers
+13242,3,112,20.800000000000004,1,1.0,High Risk,Regular Customers
+14538,2,65,20.43421052631579,0,0.0,Low Risk,Regular Customers
+13969,18,7,14.578626817447496,0,0.0,Low Risk,Loyal / High-Value Customers
+15951,2,9,17.273658536585366,0,0.0,Low Risk,Regular Customers
+13663,1,179,14.574615384615385,1,1.0,High Risk,At-Risk / Fading Customers
+12703,1,71,13.502380952380951,0,0.0,Low Risk,Regular Customers
+15291,15,26,45.32330097087379,0,0.0,Low Risk,Regular Customers
+15942,1,134,24.102857142857143,1,0.99,High Risk,Regular Customers
+13155,4,33,11.432470588235294,0,0.0,Low Risk,Regular Customers
+14413,1,362,5.502272727272727,1,1.0,High Risk,At-Risk / Fading Customers
+14220,2,247,30.11428571428572,1,1.0,High Risk,At-Risk / Fading Customers
+14348,1,260,22.753888888888888,1,1.0,High Risk,At-Risk / Fading Customers
+16915,6,9,10.906666666666668,0,0.0,Low Risk,Regular Customers
+14834,6,18,25.676119402985076,0,0.0,Low Risk,Regular Customers
+17817,3,4,11.747878787878788,0,0.0,Low Risk,Regular Customers
+18249,1,17,11.9175,0,0.0,Low Risk,Regular Customers
+17419,12,11,20.517330097087378,0,0.0,Low Risk,Regular Customers
+12864,1,138,49.04,1,1.0,High Risk,Regular Customers
+12626,9,23,22.518639455782317,0,0.0,Low Risk,Regular Customers
+18027,1,99,5.490952380952381,1,0.99,High Risk,Regular Customers
+18118,26,11,4.453745051464766,0,0.0,Low Risk,Loyal / High-Value Customers
+13356,1,80,18.29142857142857,0,0.0,Low Risk,Regular Customers
+17298,2,101,16.614,1,1.0,High Risk,Regular Customers
+13348,1,64,16.697142857142858,0,0.0,Low Risk,Regular Customers
+15230,2,239,18.678260869565214,1,1.0,High Risk,At-Risk / Fading Customers
+16825,2,39,27.685,0,0.02,Low Risk,Regular Customers
+15240,5,45,21.879102564102563,0,0.0,Low Risk,Regular Customers
+15604,1,52,12.728823529411766,0,0.0,Low Risk,Regular Customers
+16364,2,12,13.572884615384616,0,0.0,Low Risk,Regular Customers
+13327,8,39,33.59046296296296,0,0.01,Low Risk,Regular Customers
+14000,1,211,42.37733333333333,1,1.0,High Risk,At-Risk / Fading Customers
+14593,3,22,4.087086092715231,0,0.0,Low Risk,Regular Customers
+13113,24,1,61.2298,0,0.0,Low Risk,Loyal / High-Value Customers
+13362,4,9,18.618915662650604,0,0.02,Low Risk,Regular Customers
+12388,6,16,27.806600000000003,0,0.0,Low Risk,Regular Customers
+17715,1,201,326.4,1,1.0,High Risk,At-Risk / Fading Customers
+13322,1,17,7.9792,0,0.0,Low Risk,Regular Customers
+15181,3,66,43.0925,0,0.0,Low Risk,Regular Customers
+16715,1,78,15.88,0,0.0,Low Risk,Regular Customers
+16718,1,369,13.773863636363638,1,1.0,High Risk,At-Risk / Fading Customers
+14400,1,149,22.988000000000003,1,1.0,High Risk,At-Risk / Fading Customers
+14702,17,1,9.508157894736842,0,0.0,Low Risk,Loyal / High-Value Customers
+14515,6,18,21.192755102040817,0,0.0,Low Risk,Regular Customers
+14050,2,32,13.821481481481484,0,0.0,Low Risk,Regular Customers
+13889,1,93,27.793333333333337,1,1.0,High Risk,Regular Customers
+12685,6,28,18.23617834394904,0,0.0,Low Risk,Regular Customers
+16315,1,331,16.169285714285714,1,1.0,High Risk,At-Risk / Fading Customers
+14085,18,2,9.868950892857145,0,0.0,Low Risk,Loyal / High-Value Customers
+15134,8,15,19.01356164383561,0,0.0,Low Risk,Regular Customers
+16217,2,235,20.28333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+15133,3,128,33.87655172413793,1,0.99,High Risk,At-Risk / Fading Customers
+13168,4,36,10.314206349206348,0,0.0,Low Risk,Regular Customers
+13805,2,52,71.12307692307692,0,0.01,Low Risk,Regular Customers
+13560,1,7,5.3568750000000005,0,0.0,Low Risk,Regular Customers
+18108,1,254,15.941176470588236,1,1.0,High Risk,At-Risk / Fading Customers
+15790,1,10,6.4338235294117645,0,0.0,Low Risk,Regular Customers
+13899,2,16,20.448421052631577,0,0.0,Low Risk,Regular Customers
+12857,2,211,24.05217391304348,1,1.0,High Risk,At-Risk / Fading Customers
+17126,5,152,3.989717741935484,1,0.97,High Risk,At-Risk / Fading Customers
+15628,9,5,18.51767741935484,0,0.0,Low Risk,Regular Customers
+14133,3,130,21.63,1,0.99,High Risk,At-Risk / Fading Customers
+13116,1,138,16.704666666666665,1,1.0,High Risk,Regular Customers
+15837,1,65,16.3325,0,0.01,Low Risk,Regular Customers
+12670,5,10,32.56576086956522,0,0.0,Low Risk,Regular Customers
+13761,2,50,15.295000000000002,0,0.0,Low Risk,Regular Customers
+13388,2,131,19.345714285714287,1,1.0,High Risk,At-Risk / Fading Customers
+15360,1,40,32.917692307692306,0,0.0,Low Risk,Regular Customers
+17382,1,65,32.7,0,0.0,Low Risk,Regular Customers
+16293,10,22,19.059237288135595,0,0.0,Low Risk,Regular Customers
+13471,4,1,9.84976377952756,0,0.0,Low Risk,Regular Customers
+13035,2,74,34.1437037037037,0,0.0,Low Risk,Regular Customers
+13090,14,9,57.48916129032258,0,0.0,Low Risk,Regular Customers
+14672,2,235,12.55,1,1.0,High Risk,At-Risk / Fading Customers
+14420,1,99,13.362758620689654,1,0.99,High Risk,Regular Customers
+14495,2,51,20.633333333333336,0,0.0,Low Risk,Regular Customers
+13002,1,318,17.27857142857143,1,1.0,High Risk,At-Risk / Fading Customers
+17671,4,16,29.67377358490566,0,0.0,Low Risk,Regular Customers
+13654,6,43,16.30921686746988,0,0.0,Low Risk,Regular Customers
+15894,2,253,6.97972972972973,1,1.0,High Risk,At-Risk / Fading Customers
+13824,5,33,36.93347826086956,0,0.0,Low Risk,Regular Customers
+17313,1,31,97.035,0,0.0,Low Risk,Regular Customers
+14121,4,4,17.485220125786164,0,0.0,Low Risk,Regular Customers
+15468,2,51,19.47958333333333,0,0.0,Low Risk,Regular Customers
+15967,2,23,4.971,0,0.02,Low Risk,Regular Customers
+18093,4,93,58.51444444444444,1,0.99,High Risk,Regular Customers
+17245,1,205,19.05,1,1.0,High Risk,At-Risk / Fading Customers
+17061,11,74,52.850808080808086,0,0.0,Low Risk,Regular Customers
+14452,2,11,4.3175,0,0.0,Low Risk,Regular Customers
+14589,1,372,13.25,1,1.0,High Risk,At-Risk / Fading Customers
+16323,1,196,207.50000000000003,1,1.0,High Risk,At-Risk / Fading Customers
+16097,1,240,18.505,1,1.0,High Risk,At-Risk / Fading Customers
+17088,4,28,17.313130434782607,0,0.0,Low Risk,Regular Customers
+15389,1,172,500.0,1,0.99,High Risk,At-Risk / Fading Customers
+12812,1,45,15.309333333333337,0,0.0,Low Risk,Regular Customers
+15652,1,91,16.082857142857144,1,0.67,Medium Risk,Regular Customers
+13235,1,212,17.77706896551724,1,1.0,High Risk,At-Risk / Fading Customers
+13127,1,78,17.278000000000002,0,0.0,Low Risk,Regular Customers
+13672,2,301,31.065,1,1.0,High Risk,At-Risk / Fading Customers
+15983,4,22,13.081428571428573,0,0.0,Low Risk,Regular Customers
+17169,2,58,15.477407407407409,0,0.0,Low Risk,Regular Customers
+15699,1,18,17.202777777777776,0,0.0,Low Risk,Regular Customers
+14828,3,197,125.86823529411764,1,1.0,High Risk,At-Risk / Fading Customers
+13427,3,19,20.089655172413792,0,0.01,Low Risk,Regular Customers
+14210,6,106,18.684705882352944,1,0.99,High Risk,Regular Customers
+15612,2,36,32.525,0,0.0,Low Risk,Regular Customers
+16473,3,165,17.561666666666667,1,1.0,High Risk,At-Risk / Fading Customers
+16670,11,17,16.25357142857143,0,0.0,Low Risk,Regular Customers
+15079,4,213,19.055531914893617,1,1.0,High Risk,At-Risk / Fading Customers
+13925,4,93,16.54268292682927,1,1.0,High Risk,Regular Customers
+15864,6,22,96.816,0,0.0,Low Risk,Regular Customers
+17930,5,36,44.62769230769231,0,0.01,Low Risk,Regular Customers
+13592,4,36,15.4975,0,0.0,Low Risk,Regular Customers
+17323,7,15,4.648820512820513,0,0.0,Low Risk,Regular Customers
+17889,2,212,10.0685,1,0.99,High Risk,At-Risk / Fading Customers
+15840,2,59,13.168888888888889,0,0.0,Low Risk,Regular Customers
+13610,7,12,5.034093023255814,0,0.0,Low Risk,Regular Customers
+17723,6,127,327.64000000000004,1,0.93,High Risk,At-Risk / Fading Customers
+12769,1,239,35.7375,1,1.0,High Risk,At-Risk / Fading Customers
+15087,1,282,20.462666666666667,1,1.0,High Risk,At-Risk / Fading Customers
+17979,4,36,5.30731884057971,0,0.0,Low Risk,Regular Customers
+17053,1,131,38.34461538461539,1,1.0,High Risk,Regular Customers
+13769,10,2,20.71488888888889,0,0.0,Low Risk,Regular Customers
+14301,1,117,49.24153846153846,1,1.0,High Risk,Regular Customers
+15454,1,362,7.164,1,0.99,High Risk,At-Risk / Fading Customers
+12967,2,358,87.41578947368421,1,0.99,High Risk,At-Risk / Fading Customers
+15422,2,323,16.283333333333335,1,0.98,High Risk,At-Risk / Fading Customers
+18209,1,29,17.387500000000003,0,0.0,Low Risk,Regular Customers
+16626,17,1,24.65418994413408,0,0.0,Low Risk,Loyal / High-Value Customers
+17590,3,2,7.489897959183673,0,0.0,Low Risk,Regular Customers
+16005,4,12,2.8791542288557217,0,0.01,Low Risk,Regular Customers
+17510,1,25,15.424,0,0.0,Low Risk,Regular Customers
+18016,5,32,12.111967213114754,0,0.0,Low Risk,Regular Customers
+13894,3,24,20.911851851851853,0,0.0,Low Risk,Regular Customers
+15687,9,9,18.030722891566263,0,0.0,Low Risk,Regular Customers
+13509,7,9,22.26636363636364,0,0.0,Low Risk,Regular Customers
+13877,1,86,39.08,0,0.0,Low Risk,Regular Customers
+13122,2,94,16.77072727272727,1,0.99,High Risk,Regular Customers
+16038,3,8,18.14538461538461,0,0.0,Low Risk,Regular Customers
+16163,2,232,142.76666666666668,1,1.0,High Risk,At-Risk / Fading Customers
+15041,1,170,2.726212121212121,1,1.0,High Risk,At-Risk / Fading Customers
+17669,7,43,50.09882352941177,0,0.01,Low Risk,Regular Customers
+17972,1,242,4.506333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+13317,6,66,18.336129032258064,0,0.0,Low Risk,Regular Customers
+13952,2,218,23.730445255474454,1,1.0,High Risk,At-Risk / Fading Customers
+13494,1,312,17.570000000000004,1,0.99,High Risk,At-Risk / Fading Customers
+14427,2,50,21.37294117647059,0,0.0,Low Risk,Regular Customers
+13132,1,262,25.766666666666666,1,1.0,High Risk,At-Risk / Fading Customers
+15002,4,116,14.27617391304348,1,1.0,High Risk,Regular Customers
+14035,5,29,21.636666666666667,0,0.0,Low Risk,Regular Customers
+14669,3,242,7.58578313253012,1,0.99,High Risk,At-Risk / Fading Customers
+17221,2,7,5.39483870967742,0,0.0,Low Risk,Regular Customers
+12678,12,42,106.83915151515151,0,0.0,Low Risk,Regular Customers
+18145,4,13,12.94819004524887,0,0.0,Low Risk,Regular Customers
+14047,5,9,40.8940625,0,0.01,Low Risk,Regular Customers
+17414,2,44,129.66666666666666,0,0.01,Low Risk,Regular Customers
+15730,3,66,16.01257142857143,0,0.0,Low Risk,Regular Customers
+12561,1,303,14.928125,1,1.0,High Risk,At-Risk / Fading Customers
+17330,2,23,60.65,0,0.01,Low Risk,Regular Customers
+14896,2,205,10.901627906976746,1,0.99,High Risk,At-Risk / Fading Customers
+16855,2,24,17.284210526315793,0,0.0,Low Risk,Regular Customers
+14570,2,281,7.519310344827586,1,1.0,High Risk,At-Risk / Fading Customers
+16043,4,38,19.845897435897434,0,0.0,Low Risk,Regular Customers
+15827,14,73,15.966,0,0.0,Low Risk,Regular Customers
+14068,1,320,11.077083333333334,1,1.0,High Risk,At-Risk / Fading Customers
+12731,12,24,68.96317518248175,0,0.0,Low Risk,Regular Customers
+17472,3,191,4.008850574712644,1,1.0,High Risk,At-Risk / Fading Customers
+17702,4,30,24.653648648648648,0,0.0,Low Risk,Regular Customers
+14952,11,60,58.69195652173913,0,0.01,Low Risk,Regular Customers
+12885,3,63,16.552394366197184,0,0.0,Low Risk,Regular Customers
+17536,1,177,25.5,1,1.0,High Risk,At-Risk / Fading Customers
+17676,6,4,17.807532467532468,0,0.0,Low Risk,Regular Customers
+14692,4,137,8.699264705882353,1,1.0,High Risk,At-Risk / Fading Customers
+14390,9,10,16.347077464788732,0,0.0,Low Risk,Regular Customers
+14242,2,235,17.534375,1,1.0,High Risk,At-Risk / Fading Customers
+12695,4,7,21.55925925925926,0,0.0,Low Risk,Regular Customers
+12676,6,25,29.58644444444445,0,0.0,Low Risk,Regular Customers
+14658,2,5,8.522413793103448,0,0.0,Low Risk,Regular Customers
+17855,1,373,12.292352941176471,1,1.0,High Risk,At-Risk / Fading Customers
+15512,2,156,17.285714285714285,1,1.0,High Risk,At-Risk / Fading Customers
+16071,1,45,15.535238095238096,0,0.0,Low Risk,Regular Customers
+13723,1,217,33.30833333333334,1,1.0,High Risk,At-Risk / Fading Customers
+13606,3,29,6.91875,0,0.0,Low Risk,Regular Customers
+16171,1,59,24.399999999999995,0,0.0,Low Risk,Regular Customers
+14854,7,78,21.746269841269843,0,0.0,Low Risk,Regular Customers
+14129,5,2,21.61269230769231,0,0.0,Low Risk,Regular Customers
+16127,1,39,16.40625,0,0.0,Low Risk,Regular Customers
+16533,3,19,6.1523295454545455,0,0.0,Low Risk,Regular Customers
+17827,5,5,9.24339534883721,0,0.0,Low Risk,Regular Customers
+16861,2,60,28.96,0,0.0,Low Risk,Regular Customers
+15475,1,77,15.65896551724138,0,0.0,Low Risk,Regular Customers
+15856,27,4,25.706433121019103,0,0.0,Low Risk,Loyal / High-Value Customers
+18160,2,57,16.36051282051282,0,0.0,Low Risk,Regular Customers
+14009,2,198,16.562142857142856,1,1.0,High Risk,At-Risk / Fading Customers
+12348,4,75,57.97548387096774,0,0.03,Low Risk,Regular Customers
+15097,1,4,9.9232,0,0.0,Low Risk,Regular Customers
+15804,13,1,16.05492366412214,0,0.0,Low Risk,Regular Customers
+14102,5,5,19.06689655172413,0,0.0,Low Risk,Regular Customers
+17173,8,5,43.79767441860465,0,0.0,Low Risk,Regular Customers
+17905,4,71,24.21181818181818,0,0.0,Low Risk,Regular Customers
+14537,1,58,35.556,0,0.0,Low Risk,Regular Customers
+14536,1,260,9.497222222222222,1,1.0,High Risk,At-Risk / Fading Customers
+16832,3,184,16.595833333333335,1,1.0,High Risk,At-Risk / Fading Customers
+16406,1,19,2.661206896551724,0,0.0,Low Risk,Regular Customers
+12457,7,66,38.11661290322581,0,0.0,Low Risk,Regular Customers
+12897,2,205,54.125,1,1.0,High Risk,At-Risk / Fading Customers
+18084,1,16,90.48,0,0.0,Low Risk,Regular Customers
+16593,3,51,12.223333333333333,0,0.0,Low Risk,Regular Customers
+13972,2,71,12.683333333333334,0,0.02,Low Risk,Regular Customers
+18184,1,15,49.8,0,0.0,Low Risk,Regular Customers
+17786,2,85,3.9242647058823534,0,0.0,Low Risk,Regular Customers
+13726,2,39,25.70619047619048,0,0.0,Low Risk,Regular Customers
+16574,1,71,16.122857142857143,0,0.0,Low Risk,Regular Customers
+13246,6,18,14.422941176470587,0,0.0,Low Risk,Regular Customers
+16539,4,3,30.86244444444444,0,0.0,Low Risk,Regular Customers
+14247,1,278,6.838500000000001,1,1.0,High Risk,At-Risk / Fading Customers
+17095,3,23,17.894054054054056,0,0.0,Low Risk,Regular Customers
+17508,1,281,17.605,1,0.99,High Risk,At-Risk / Fading Customers
+16085,5,23,5.877305389221557,0,0.0,Low Risk,Regular Customers
+17379,1,11,4.996410256410256,0,0.03,Low Risk,Regular Customers
+15483,4,161,2.681666666666666,1,0.97,High Risk,At-Risk / Fading Customers
+13727,2,29,16.674,0,0.0,Low Risk,Regular Customers
+17813,5,14,4.879511494252873,0,0.0,Low Risk,Regular Customers
+16839,34,9,62.38477443609022,0,0.01,Low Risk,Loyal / High-Value Customers
+14554,4,10,11.229014778325125,0,0.0,Low Risk,Regular Customers
+15527,8,19,14.990925925925929,0,0.0,Low Risk,Regular Customers
+15185,1,70,14.791428571428572,0,0.0,Low Risk,Regular Customers
+14910,4,3,14.478333333333332,0,0.0,Low Risk,Regular Customers
+15806,3,46,25.30903225806452,0,0.0,Low Risk,Regular Customers
+12413,3,67,19.95,0,0.0,Low Risk,Regular Customers
+12420,1,64,20.70310344827586,0,0.0,Low Risk,Regular Customers
+16278,1,100,24.625217391304343,1,0.99,High Risk,Regular Customers
+13918,2,50,40.428,0,0.0,Low Risk,Regular Customers
+16178,1,138,24.7375,1,0.99,High Risk,Regular Customers
+14161,3,216,10.554038461538465,1,1.0,High Risk,At-Risk / Fading Customers
+14553,5,19,7.604159292035398,0,0.0,Low Risk,Regular Customers
+15178,1,260,13.5,1,1.0,High Risk,At-Risk / Fading Customers
+16828,2,93,16.0625,1,0.97,High Risk,Regular Customers
+13236,2,25,20.69027777777778,0,0.0,Low Risk,Regular Customers
+16365,9,18,30.2043137254902,0,0.0,Low Risk,Regular Customers
+17615,3,130,23.542857142857144,1,1.0,High Risk,At-Risk / Fading Customers
+13425,3,108,20.823205128205128,1,1.0,High Risk,Regular Customers
+17695,2,132,21.866857142857143,1,1.0,High Risk,At-Risk / Fading Customers
+12365,2,291,29.15363636363636,1,1.0,High Risk,At-Risk / Fading Customers
+16215,1,81,17.310714285714287,0,0.0,Low Risk,Regular Customers
+16722,13,17,21.025822222222224,0,0.0,Low Risk,Regular Customers
+14533,7,25,31.44709677419355,0,0.0,Low Risk,Regular Customers
+16996,6,30,39.3772972972973,0,0.0,Low Risk,Regular Customers
+17428,28,1,52.61234756097561,0,0.0,Low Risk,Loyal / High-Value Customers
+17828,4,23,27.1655223880597,0,0.0,Low Risk,Regular Customers
+15795,1,150,14.524047619047618,1,1.0,High Risk,At-Risk / Fading Customers
+16523,21,2,32.477482758620695,0,0.0,Low Risk,Loyal / High-Value Customers
+13922,1,352,24.607142857142858,1,1.0,High Risk,At-Risk / Fading Customers
+14360,4,32,18.102820512820514,0,0.0,Low Risk,Regular Customers
+15791,2,44,21.502533333333336,0,0.0,Low Risk,Regular Customers
+13344,3,68,21.6525,0,0.0,Low Risk,Regular Customers
+14377,2,191,56.095454545454544,1,1.0,High Risk,At-Risk / Fading Customers
+14565,4,96,24.40251968503937,1,1.0,High Risk,Regular Customers
+17765,3,159,6.564821428571428,1,1.0,High Risk,At-Risk / Fading Customers
+17211,8,27,10.982085308056874,0,0.0,Low Risk,Regular Customers
+15570,12,7,13.005705329153605,0,0.0,Low Risk,Regular Customers
+14825,12,4,18.50841666666667,0,0.0,Low Risk,Regular Customers
+14882,2,27,53.60909090909092,0,0.0,Low Risk,Regular Customers
+16728,4,46,3.985855513307985,0,0.0,Low Risk,Regular Customers
+12520,5,79,17.330657894736845,0,0.0,Low Risk,Regular Customers
+16620,2,4,19.884444444444444,0,0.0,Low Risk,Regular Customers
+14723,6,10,4.333436293436293,0,0.0,Low Risk,Regular Customers
+18048,2,203,24.612857142857145,1,1.0,High Risk,At-Risk / Fading Customers
+15423,1,38,21.75,0,0.0,Low Risk,Regular Customers
+17932,3,29,14.795222222222222,0,0.0,Low Risk,Regular Customers
+14149,1,221,15.950714285714286,1,1.0,High Risk,At-Risk / Fading Customers
+14711,11,10,8.230782608695652,0,0.0,Low Risk,Regular Customers
+17045,3,113,15.42909090909091,1,1.0,High Risk,Regular Customers
+17384,2,19,22.426666666666662,0,0.0,Low Risk,Regular Customers
+13441,1,92,22.818461538461538,1,0.97,High Risk,Regular Customers
+13529,2,79,20.517333333333333,0,0.0,Low Risk,Regular Customers
+13615,1,319,18.160434782608696,1,1.0,High Risk,At-Risk / Fading Customers
+15030,2,72,74.03999999999999,0,0.02,Low Risk,Regular Customers
+16405,2,302,33.45,1,0.99,High Risk,At-Risk / Fading Customers
+16206,4,55,8.524761904761906,0,0.0,Low Risk,Regular Customers
+13867,3,31,16.7515,0,0.0,Low Risk,Regular Customers
+17557,3,14,15.92529411764706,0,0.0,Low Risk,Regular Customers
+14006,3,116,32.073,1,1.0,High Risk,Regular Customers
+14356,2,80,21.24939393939394,0,0.0,Low Risk,Regular Customers
+13484,1,241,39.225,1,1.0,High Risk,At-Risk / Fading Customers
+13826,1,176,18.95,1,1.0,High Risk,At-Risk / Fading Customers
+15900,1,24,7.176170212765958,0,0.0,Low Risk,Regular Customers
+13411,1,107,11.863888888888887,1,1.0,High Risk,Regular Customers
+14523,1,108,20.09083333333333,1,0.99,High Risk,Regular Customers
+15757,2,66,15.876,0,0.0,Low Risk,Regular Customers
+17155,2,18,12.585,0,0.03,Low Risk,Regular Customers
+16516,1,30,16.95,0,0.01,Low Risk,Regular Customers
+18032,1,334,14.7,1,1.0,High Risk,At-Risk / Fading Customers
+15032,3,256,95.3673076923077,1,0.99,High Risk,At-Risk / Fading Customers
+18180,6,5,15.493697478991596,0,0.01,Low Risk,Regular Customers
+12527,3,82,19.37277777777778,0,0.01,Low Risk,Regular Customers
+14561,3,76,15.6631884057971,0,0.0,Low Risk,Regular Customers
+12843,8,66,16.526796116504855,0,0.0,Low Risk,Regular Customers
+12435,2,80,217.49694444444447,0,0.04,Low Risk,Regular Customers
+12952,4,6,17.566962025316457,0,0.0,Low Risk,Regular Customers
+13253,2,157,28.622222222222224,1,1.0,High Risk,At-Risk / Fading Customers
+16116,1,212,18.02294117647059,1,1.0,High Risk,At-Risk / Fading Customers
+15497,2,18,84.14666666666668,0,0.01,Low Risk,Regular Customers
+17806,1,11,12.698604651162787,0,0.0,Low Risk,Regular Customers
+18181,1,24,8.947560975609756,0,0.01,Low Risk,Regular Customers
+12694,2,70,23.504594594594597,0,0.0,Low Risk,Regular Customers
+15800,2,107,5.956324786324786,1,1.0,High Risk,Regular Customers
+13871,13,23,19.057291666666668,0,0.0,Low Risk,Regular Customers
+15801,3,46,16.62421875,0,0.0,Low Risk,Regular Customers
+17515,4,31,7.345057471264368,0,0.0,Low Risk,Regular Customers
+17358,2,303,6.220862068965517,1,1.0,High Risk,At-Risk / Fading Customers
+13341,1,261,18.472619047619048,1,1.0,High Risk,At-Risk / Fading Customers
+16212,2,19,16.837560975609758,0,0.0,Low Risk,Regular Customers
+14307,6,89,16.64288888888889,0,0.0,Low Risk,Regular Customers
+15393,2,16,19.32166666666667,0,0.0,Low Risk,Regular Customers
+16795,1,365,6.286060606060606,1,1.0,High Risk,At-Risk / Fading Customers
+13767,37,2,46.79445652173913,0,0.0,Low Risk,Loyal / High-Value Customers
+13395,1,185,14.653333333333334,1,1.0,High Risk,At-Risk / Fading Customers
+17430,2,33,18.982857142857146,0,0.0,Low Risk,Regular Customers
+14587,9,19,4.259541778975741,0,0.0,Low Risk,Regular Customers
+16601,1,41,8.09,0,0.0,Low Risk,Regular Customers
+16843,16,43,26.97505291005291,0,0.0,Low Risk,Regular Customers
+17578,1,218,28.692,1,1.0,High Risk,At-Risk / Fading Customers
+18005,2,4,4.273018867924528,0,0.0,Low Risk,Regular Customers
+12602,1,59,12.76,0,0.0,Low Risk,Regular Customers
+13627,5,59,17.80945652173913,0,0.0,Low Risk,Regular Customers
+17727,1,15,16.064393939393938,0,0.0,Low Risk,Regular Customers
+15460,1,354,3.826071428571428,1,1.0,High Risk,At-Risk / Fading Customers
+15832,1,254,15.49611111111111,1,1.0,High Risk,At-Risk / Fading Customers
+17118,1,318,15.702000000000002,1,1.0,High Risk,At-Risk / Fading Customers
+16320,2,172,18.543928571428573,1,1.0,High Risk,At-Risk / Fading Customers
+14701,9,11,7.725045871559633,0,0.0,Low Risk,Regular Customers
+15823,1,372,15.0,1,1.0,High Risk,At-Risk / Fading Customers
+15838,19,11,201.45556886227547,0,0.0,Low Risk,Loyal / High-Value Customers
+16776,1,60,5.232957746478873,0,0.0,Low Risk,Regular Customers
+15109,1,246,17.319642857142856,1,1.0,High Risk,At-Risk / Fading Customers
+17131,5,5,18.38186567164179,0,0.0,Low Risk,Regular Customers
+14710,4,14,4.4079411764705885,0,0.0,Low Risk,Regular Customers
+17663,7,26,20.96406976744186,0,0.0,Low Risk,Regular Customers
+14032,11,2,20.80832167832168,0,0.0,Low Risk,Regular Customers
+16803,1,65,13.845833333333331,0,0.0,Low Risk,Regular Customers
+14375,1,185,3.5690909090909093,1,1.0,High Risk,At-Risk / Fading Customers
+14100,1,138,7.678,1,0.98,High Risk,Regular Customers
+17644,11,1,18.44356687898089,0,0.0,Low Risk,Regular Customers
+14757,1,75,22.13157894736842,0,0.0,Low Risk,Regular Customers
+17370,4,73,13.52060606060606,0,0.0,Low Risk,Regular Customers
+13462,1,253,16.833333333333332,1,1.0,High Risk,At-Risk / Fading Customers
+15426,5,19,5.105709090909091,0,0.0,Low Risk,Regular Customers
+17975,13,15,15.30122866894198,0,0.0,Low Risk,Regular Customers
+16131,6,52,44.95564102564102,0,0.01,Low Risk,Regular Customers
+16969,3,39,15.48595238095238,0,0.0,Low Risk,Regular Customers
+15303,1,290,18.516774193548382,1,1.0,High Risk,At-Risk / Fading Customers
+13658,5,10,24.43675925925926,0,0.0,Low Risk,Regular Customers
+12415,21,24,174.95032212885152,0,0.0,Low Risk,VIP Customers
+13284,1,331,15.476153846153846,1,1.0,High Risk,At-Risk / Fading Customers
+12639,1,239,22.095454545454547,1,0.99,High Risk,At-Risk / Fading Customers
+14173,4,11,15.546206896551723,0,0.0,Low Risk,Regular Customers
+16024,1,12,3.9846031746031754,0,0.0,Low Risk,Regular Customers
+14336,4,17,17.943444444444445,0,0.0,Low Risk,Regular Customers
+16279,3,21,14.177169811320754,0,0.0,Low Risk,Regular Customers
+14681,3,71,71.27857142857142,0,0.01,Low Risk,Regular Customers
+13385,1,330,15.273428571428571,1,1.0,High Risk,At-Risk / Fading Customers
+15313,1,110,52.0,1,1.0,High Risk,Regular Customers
+16240,2,24,27.546666666666667,0,0.0,Low Risk,Regular Customers
+13760,2,54,5.03140350877193,0,0.01,Low Risk,Regular Customers
+16454,2,45,3.45,0,0.0,Low Risk,Regular Customers
+16318,1,35,17.27105263157895,0,0.0,Low Risk,Regular Customers
+18037,6,154,3.685263157894737,1,0.97,High Risk,At-Risk / Fading Customers
+12994,3,4,15.974098360655738,0,0.0,Low Risk,Regular Customers
+13647,4,10,21.12974358974359,0,0.0,Low Risk,Regular Customers
+13045,1,99,16.96,1,1.0,High Risk,Regular Customers
+14314,1,107,15.0,1,1.0,High Risk,Regular Customers
+13339,1,201,15.928148148148148,1,1.0,High Risk,At-Risk / Fading Customers
+15786,3,46,18.49248120300752,0,0.0,Low Risk,Regular Customers
+16037,3,270,21.923589743589744,1,0.99,High Risk,At-Risk / Fading Customers
+17338,8,17,9.00629680998613,0,0.0,Low Risk,Regular Customers
+16351,1,333,19.2375,1,1.0,High Risk,At-Risk / Fading Customers
+14632,1,263,14.32,1,1.0,High Risk,At-Risk / Fading Customers
+13782,6,13,8.043008849557522,0,0.0,Low Risk,Regular Customers
+16224,4,57,13.492708333333333,0,0.0,Low Risk,Regular Customers
+14395,9,2,9.999741379310343,0,0.0,Low Risk,Regular Customers
+17618,3,6,13.884776119402984,0,0.0,Low Risk,Regular Customers
+16730,3,52,9.062317073170732,0,0.0,Low Risk,Regular Customers
+15012,2,54,3.3200000000000003,0,0.0,Low Risk,Regular Customers
+15063,1,213,74.16,1,1.0,High Risk,At-Risk / Fading Customers
+13638,1,16,15.33,0,0.0,Low Risk,Regular Customers
+13318,3,1,32.038,0,0.0,Low Risk,Regular Customers
+16361,4,10,8.569326923076924,0,0.0,Low Risk,Regular Customers
+18065,14,6,17.465912408759124,0,0.0,Low Risk,Regular Customers
+15799,3,76,9.021836734693878,0,0.0,Low Risk,Regular Customers
+16846,1,50,19.483636363636364,0,0.0,Low Risk,Regular Customers
+12902,1,265,13.868,1,1.0,High Risk,At-Risk / Fading Customers
+14529,3,60,2.7164788732394367,0,0.0,Low Risk,Regular Customers
+12832,2,32,14.186296296296298,0,0.0,Low Risk,Regular Customers
+17442,6,37,16.656,0,0.0,Low Risk,Regular Customers
+13453,2,166,20.99882352941177,1,1.0,High Risk,At-Risk / Fading Customers
+13492,3,136,25.3968,1,1.0,High Risk,At-Risk / Fading Customers
+17538,1,26,10.935555555555556,0,0.0,Low Risk,Regular Customers
+17027,6,79,5.92945945945946,0,0.0,Low Risk,Regular Customers
+16193,1,237,16.55,1,1.0,High Risk,At-Risk / Fading Customers
+15758,1,25,22.80555555555556,0,0.0,Low Risk,Regular Customers
+16558,20,1,18.127152173913043,0,0.0,Low Risk,Loyal / High-Value Customers
+18018,2,108,4.211724137931035,1,0.97,High Risk,Regular Customers
+12612,1,74,37.054736842105264,0,0.0,Low Risk,Regular Customers
+18041,21,12,8.94622270742358,0,0.0,Low Risk,Loyal / High-Value Customers
+12693,4,127,21.946410256410257,1,0.99,High Risk,Regular Customers
+14077,5,41,11.89095238095238,0,0.0,Low Risk,Regular Customers
+13464,1,58,16.45560975609756,0,0.0,Low Risk,Regular Customers
+12356,3,23,47.65135593220339,0,0.0,Low Risk,Regular Customers
+17102,1,262,25.5,1,1.0,High Risk,At-Risk / Fading Customers
+15797,4,113,275.925,1,0.99,High Risk,Regular Customers
+12778,6,20,16.4446,0,0.01,Low Risk,Regular Customers
+16344,1,158,50.55,1,1.0,High Risk,At-Risk / Fading Customers
+14323,2,115,16.807222222222222,1,0.99,High Risk,Regular Customers
+16413,1,57,8.458064516129031,0,0.0,Low Risk,Regular Customers
+16655,6,18,14.688062015503876,0,0.0,Low Risk,Regular Customers
+17440,3,157,37.284000000000006,1,1.0,High Risk,At-Risk / Fading Customers
+15113,3,10,36.179690721649486,0,0.0,Low Risk,Regular Customers
+17073,4,18,8.310862068965516,0,0.0,Low Risk,Regular Customers
+16389,4,53,40.64911764705883,0,0.0,Low Risk,Regular Customers
+13489,4,105,32.10857142857143,1,1.0,High Risk,Regular Customers
+13448,6,17,18.22005154639175,0,0.0,Low Risk,Regular Customers
+15749,3,235,4453.43,1,0.94,High Risk,Loyal / High-Value Customers
+14966,1,15,5.08388888888889,0,0.02,Low Risk,Regular Customers
+13636,5,37,15.065396825396826,0,0.0,Low Risk,Regular Customers
+14805,4,15,11.878260869565215,0,0.0,Low Risk,Regular Customers
+13923,1,54,17.5565,0,0.0,Low Risk,Regular Customers
+16094,4,12,17.114761904761906,0,0.0,Low Risk,Regular Customers
+17790,14,27,10.393121693121692,0,0.0,Low Risk,Regular Customers
+18136,3,63,20.640263157894736,0,0.01,Low Risk,Regular Customers
+14576,1,372,35.400000000000006,1,1.0,High Risk,At-Risk / Fading Customers
+16471,1,275,17.22692307692308,1,0.99,High Risk,At-Risk / Fading Customers
+16144,1,247,175.2,1,1.0,High Risk,At-Risk / Fading Customers
+15658,5,190,21.33541666666667,1,1.0,High Risk,At-Risk / Fading Customers
+15599,2,27,14.648846153846154,0,0.0,Low Risk,Regular Customers
+13221,2,240,12.839545454545457,1,1.0,High Risk,At-Risk / Fading Customers
+18177,6,31,18.368082191780825,0,0.0,Low Risk,Regular Customers
+13280,3,122,9.737317073170733,1,1.0,High Risk,Regular Customers
+14652,1,77,3.937241379310345,0,0.0,Low Risk,Regular Customers
+14573,9,180,7.223876651982379,1,0.98,High Risk,At-Risk / Fading Customers
+14475,3,72,22.04404761904762,0,0.0,Low Risk,Regular Customers
+18045,1,45,4.147441860465117,0,0.0,Low Risk,Regular Customers
+13704,9,5,17.224328358208954,0,0.0,Low Risk,Regular Customers
+14080,1,33,11.4,0,0.01,Low Risk,Regular Customers
+14829,4,29,16.60833333333333,0,0.0,Low Risk,Regular Customers
+17936,1,5,5.279583333333333,0,0.0,Low Risk,Regular Customers
+14224,4,110,8.93566371681416,1,1.0,High Risk,Regular Customers
+16447,1,136,7.526764705882353,1,0.98,High Risk,Regular Customers
+14640,6,24,20.07028571428572,0,0.0,Low Risk,Regular Customers
+17964,2,32,4.726632653061224,0,0.01,Low Risk,Regular Customers
+15281,9,59,16.778057553956835,0,0.0,Low Risk,Regular Customers
+14132,11,2,17.93015,0,0.0,Low Risk,Regular Customers
+14764,1,47,46.38333333333333,0,0.0,Low Risk,Regular Customers
+13473,2,61,20.125714285714285,0,0.0,Low Risk,Regular Customers
+17884,4,4,6.151061946902655,0,0.0,Low Risk,Regular Customers
+16157,3,16,36.48277777777778,0,0.0,Low Risk,Regular Customers
+17942,1,8,38.75000000000001,0,0.0,Low Risk,Regular Customers
+18273,3,2,68.0,0,0.0,Low Risk,Regular Customers
+13421,2,40,17.977549019607842,0,0.0,Low Risk,Regular Customers
+17866,1,143,36.62777777777778,1,0.99,High Risk,At-Risk / Fading Customers
+15005,28,16,5.661303956834533,0,0.0,Low Risk,Loyal / High-Value Customers
+12412,3,75,20.112786885245903,0,0.01,Low Risk,Regular Customers
+13557,2,28,17.17823529411765,0,0.0,Low Risk,Regular Customers
+14447,5,19,16.617571428571427,0,0.0,Low Risk,Regular Customers
+17486,1,261,16.53625,1,1.0,High Risk,At-Risk / Fading Customers
+12613,5,57,21.85869281045752,0,0.0,Low Risk,Regular Customers
+18172,20,15,40.00888888888889,0,0.0,Low Risk,Loyal / High-Value Customers
+16117,1,190,7.740333333333334,1,0.98,High Risk,At-Risk / Fading Customers
+17267,2,127,8.572972972972973,1,1.0,High Risk,Regular Customers
+14965,2,96,7.359135802469136,1,0.99,High Risk,Regular Customers
+16526,1,172,19.357333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+18237,5,3,16.181967213114753,0,0.0,Low Risk,Regular Customers
+14404,6,34,14.4932,0,0.0,Low Risk,Regular Customers
+17368,8,23,17.559532710280372,0,0.0,Low Risk,Regular Customers
+12431,15,36,27.43568376068376,0,0.0,Low Risk,Regular Customers
+16203,4,59,16.939999999999998,0,0.0,Low Risk,Regular Customers
+15467,3,9,10.093846153846156,0,0.0,Low Risk,Regular Customers
+17852,2,12,4.764166666666667,0,0.0,Low Risk,Regular Customers
+14600,1,306,15.733200000000002,1,1.0,High Risk,At-Risk / Fading Customers
+18219,10,3,18.15587719298245,0,0.0,Low Risk,Regular Customers
+13832,1,19,17.400000000000002,0,0.0,Low Risk,Regular Customers
+12697,3,29,23.355853658536585,0,0.0,Low Risk,Regular Customers
+15720,1,24,4.677578125,0,0.01,Low Risk,Regular Customers
+14562,18,4,11.949331742243436,0,0.0,Low Risk,Loyal / High-Value Customers
+14300,1,19,14.4,0,0.0,Low Risk,Regular Customers
+18165,1,177,30.246,1,1.0,High Risk,At-Risk / Fading Customers
+12645,4,34,24.31753424657534,0,0.0,Low Risk,Regular Customers
+15203,6,26,12.871830985915492,0,0.0,Low Risk,Regular Customers
+17731,4,79,18.509104477611935,0,0.01,Low Risk,Regular Customers
+14552,1,152,2.8810526315789478,1,1.0,High Risk,At-Risk / Fading Customers
+16011,16,8,15.966476190476191,0,0.0,Low Risk,Loyal / High-Value Customers
+14505,8,17,7.464242038216561,0,0.0,Low Risk,Regular Customers
+14817,2,200,17.624444444444443,1,1.0,High Risk,At-Risk / Fading Customers
+17861,8,3,9.579360730593608,0,0.0,Low Risk,Regular Customers
+15380,5,9,46.95166666666667,0,0.0,Low Risk,Regular Customers
+15970,1,304,28.55454545454545,1,1.0,High Risk,At-Risk / Fading Customers
+17680,1,24,16.763636363636365,0,0.0,Low Risk,Regular Customers
+13136,5,56,20.53236220472441,0,0.0,Low Risk,Regular Customers
+16135,1,263,24.64523809523809,1,1.0,High Risk,At-Risk / Fading Customers
+14704,9,11,3.801424936386769,0,0.0,Low Risk,Regular Customers
+14440,5,8,42.86690909090909,0,0.0,Low Risk,Regular Customers
+15218,11,11,34.680060240963854,0,0.0,Low Risk,Regular Customers
+17086,6,7,21.355,0,0.0,Low Risk,Regular Customers
+14712,3,29,36.6828,0,0.0,Low Risk,Regular Customers
+15655,1,243,16.49029411764706,1,1.0,High Risk,At-Risk / Fading Customers
+13283,2,60,13.38,0,0.0,Low Risk,Regular Customers
+16324,3,128,3.680990990990992,1,1.0,High Risk,At-Risk / Fading Customers
+14138,2,2,20.997391304347826,0,0.0,Low Risk,Regular Customers
+16597,1,4,12.862857142857145,0,0.0,Low Risk,Regular Customers
+15815,5,64,42.86938775510204,0,0.0,Low Risk,Regular Customers
+16570,10,15,29.66984126984127,0,0.0,Low Risk,Regular Customers
+15292,1,201,7.432916666666666,1,0.99,High Risk,At-Risk / Fading Customers
+14745,5,113,17.684927536231886,1,0.99,High Risk,Regular Customers
+18127,3,19,7.545217391304347,0,0.0,Low Risk,Regular Customers
+12375,2,11,26.91176470588235,0,0.0,Low Risk,Regular Customers
+13751,1,288,32.916666666666664,1,1.0,High Risk,At-Risk / Fading Customers
+14087,1,3,2.8157352941176472,0,0.0,Low Risk,Regular Customers
+18227,1,218,18.75,1,1.0,High Risk,At-Risk / Fading Customers
+13091,1,28,16.467619047619046,0,0.0,Low Risk,Regular Customers
+18252,2,51,5.5135106382978725,0,0.0,Low Risk,Regular Customers
+13259,1,62,3.4960493827160493,0,0.0,Low Risk,Regular Customers
+17082,2,33,24.73888888888889,0,0.0,Low Risk,Regular Customers
+15212,1,241,20.36,1,1.0,High Risk,At-Risk / Fading Customers
+18169,1,61,22.516666666666666,0,0.0,Low Risk,Regular Customers
+17584,2,7,35.49428571428572,0,0.0,Low Risk,Regular Customers
+14113,4,4,54.13,0,0.0,Low Risk,Regular Customers
+18146,2,141,16.035,1,0.98,High Risk,At-Risk / Fading Customers
+14885,1,132,51.02133333333333,1,1.0,High Risk,Regular Customers
+13721,1,36,18.719285714285714,0,0.01,Low Risk,Regular Customers
+14326,1,242,22.98125,1,1.0,High Risk,At-Risk / Fading Customers
+14341,8,45,16.92953125,0,0.0,Low Risk,Regular Customers
+16007,4,48,4.445695538057743,0,0.0,Low Risk,Regular Customers
+17616,3,174,190.4,1,0.97,High Risk,At-Risk / Fading Customers
+16102,3,42,32.31824561403509,0,0.0,Low Risk,Regular Customers
+18185,1,249,17.897058823529413,1,1.0,High Risk,At-Risk / Fading Customers
+12974,1,198,18.1,1,1.0,High Risk,At-Risk / Fading Customers
+12577,3,35,4.291780821917809,0,0.0,Low Risk,Regular Customers
+17841,124,2,5.2787701928087545,0,0.0,Low Risk,VIP Customers
+16895,1,65,3.26241935483871,0,0.0,Low Risk,Regular Customers
+13623,5,31,9.33,0,0.0,Low Risk,Regular Customers
+14646,73,2,134.97399807321773,0,0.0,Low Risk,VIP Customers
+16979,6,4,20.808988764044944,0,0.0,Low Risk,Regular Customers
+13590,6,11,22.780689655172413,0,0.0,Low Risk,Regular Customers
+16425,1,302,14.414285714285716,1,1.0,High Risk,At-Risk / Fading Customers
+16031,2,92,5.590816326530612,1,0.94,High Risk,Regular Customers
+14497,1,309,16.392068965517243,1,1.0,High Risk,At-Risk / Fading Customers
+15140,7,52,29.428125,0,0.0,Low Risk,Regular Customers
+14446,4,1,3.6474729241877255,0,0.0,Low Risk,Regular Customers
+14295,1,40,33.24,0,0.0,Low Risk,Regular Customers
+15793,3,15,80.4675,0,0.0,Low Risk,Regular Customers
+14662,4,29,4.722101910828026,0,0.0,Low Risk,Regular Customers
+14311,1,243,15.513,1,1.0,High Risk,At-Risk / Fading Customers
+15398,2,16,18.43191780821918,0,0.0,Low Risk,Regular Customers
+16150,5,43,17.547179487179488,0,0.0,Low Risk,Regular Customers
+16999,2,23,21.07913043478261,0,0.0,Low Risk,Regular Customers
+15298,12,2,24.999479166666664,0,0.01,Low Risk,Regular Customers
+18123,2,24,16.895294117647058,0,0.0,Low Risk,Regular Customers
+16971,1,38,8.712439024390243,0,0.01,Low Risk,Regular Customers
+16965,1,227,7.738076923076923,1,0.98,High Risk,At-Risk / Fading Customers
+18262,1,140,11.498461538461536,1,1.0,High Risk,At-Risk / Fading Customers
+16080,2,82,21.716,0,0.0,Low Risk,Regular Customers
+14661,1,27,26.9875,0,0.0,Low Risk,Regular Customers
+13744,2,95,17.15111111111111,1,1.0,High Risk,Regular Customers
+16762,3,20,19.162539682539684,0,0.0,Low Risk,Regular Customers
+12925,2,5,15.423333333333332,0,0.0,Low Risk,Regular Customers
+17107,6,33,25.955480769230768,0,0.0,Low Risk,Regular Customers
+15909,1,174,27.42,1,1.0,High Risk,At-Risk / Fading Customers
+13299,1,268,28.5,1,1.0,High Risk,At-Risk / Fading Customers
+14104,2,155,10.295714285714286,1,0.97,High Risk,At-Risk / Fading Customers
+16233,3,71,24.394545454545455,0,0.0,Low Risk,Regular Customers
+18129,1,243,8.039285714285715,1,1.0,High Risk,At-Risk / Fading Customers
+16214,3,171,24.15340909090909,1,1.0,High Risk,At-Risk / Fading Customers
+14715,4,25,12.21661971830986,0,0.0,Low Risk,Regular Customers
+13716,1,269,6.584761904761905,1,0.99,High Risk,At-Risk / Fading Customers
+15805,17,23,18.355117056856187,0,0.0,Low Risk,Loyal / High-Value Customers
+14765,3,29,6.515641025641026,0,0.0,Low Risk,Regular Customers
+15308,1,274,16.340526315789475,1,1.0,High Risk,At-Risk / Fading Customers
+15821,2,44,9.209032258064516,0,0.01,Low Risk,Regular Customers
+18036,3,32,4.288510638297873,0,0.0,Low Risk,Regular Customers
+15737,8,15,16.734084507042255,0,0.0,Low Risk,Regular Customers
+16942,9,13,6.877220216606498,0,0.0,Low Risk,Regular Customers
+14713,11,9,7.876331360946745,0,0.0,Low Risk,Regular Customers
+16918,6,50,8.35015625,0,0.0,Low Risk,Regular Customers
+18280,1,278,18.06,1,1.0,High Risk,At-Risk / Fading Customers
+16735,5,79,19.374224137931037,0,0.0,Low Risk,Regular Customers
+13518,1,86,17.42111111111111,0,0.0,Low Risk,Regular Customers
+13151,1,296,16.998243243243245,1,1.0,High Risk,At-Risk / Fading Customers
+12987,2,74,19.95357142857143,0,0.0,Low Risk,Regular Customers
+16569,1,3,24.84,0,0.0,Low Risk,Regular Customers
+17812,4,13,5.261729323308271,0,0.0,Low Risk,Regular Customers
+17712,1,45,18.031379310344825,0,0.0,Low Risk,Regular Customers
+13167,4,19,12.174307692307693,0,0.0,Low Risk,Regular Customers
+16949,6,4,21.437833333333334,0,0.0,Low Risk,Regular Customers
+12598,8,10,22.90212121212121,0,0.0,Low Risk,Regular Customers
+15852,2,187,7.305000000000001,1,1.0,High Risk,At-Risk / Fading Customers
+15120,1,134,17.086666666666666,1,1.0,High Risk,Regular Customers
+13108,1,373,35.006,1,1.0,High Risk,At-Risk / Fading Customers
+15220,6,52,15.204786324786324,0,0.0,Low Risk,Regular Customers
+13853,1,57,47.39739130434782,0,0.0,Low Risk,Regular Customers
+12517,5,28,8.894623655913978,0,0.0,Low Risk,Regular Customers
+16484,2,174,16.172,1,0.99,High Risk,At-Risk / Fading Customers
+14541,8,59,13.84142857142857,0,0.0,Low Risk,Regular Customers
+15696,8,33,16.137559523809525,0,0.0,Low Risk,Regular Customers
+14820,4,21,17.492758620689656,0,0.0,Low Risk,Regular Customers
+15316,1,327,165.0,1,1.0,High Risk,At-Risk / Fading Customers
+17997,8,74,11.966219512195122,0,0.0,Low Risk,Regular Customers
+17628,1,81,15.15,0,0.0,Low Risk,Regular Customers
+13983,12,30,24.3311214953271,0,0.0,Low Risk,Regular Customers
+17864,3,13,6.165,0,0.0,Low Risk,Regular Customers
+12719,2,5,16.53717948717949,0,0.0,Low Risk,Regular Customers
+15707,4,35,4.473073170731707,0,0.0,Low Risk,Regular Customers
+15168,1,26,21.312,0,0.0,Low Risk,Regular Customers
+14459,1,155,49.67351351351351,1,1.0,High Risk,At-Risk / Fading Customers
+13575,5,23,15.914565217391305,0,0.0,Low Risk,Regular Customers
+17614,1,57,3.9420408163265295,0,0.0,Low Risk,Regular Customers
+13065,1,373,14.704285714285716,1,1.0,High Risk,At-Risk / Fading Customers
+16316,8,64,19.46298013245033,0,0.0,Low Risk,Regular Customers
+13124,3,90,16.920405405405404,0,0.06,Low Risk,Regular Customers
+12550,1,79,16.92684210526316,0,0.01,Low Risk,Regular Customers
+15129,11,50,41.04047619047619,0,0.02,Low Risk,Regular Customers
+13334,3,82,13.216301886792454,0,0.01,Low Risk,Regular Customers
+16613,1,70,20.619666666666667,0,0.02,Low Risk,Regular Customers
+17110,1,165,13.608333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+16841,6,37,16.119137931034484,0,0.0,Low Risk,Regular Customers
+14271,1,226,11.232,1,1.0,High Risk,At-Risk / Fading Customers
+18135,5,29,34.0955,0,0.0,Low Risk,Regular Customers
+15440,3,55,6.188387096774194,0,0.0,Low Risk,Regular Customers
+17434,7,2,17.715074626865672,0,0.0,Low Risk,Regular Customers
+14936,8,34,22.35445054945055,0,0.0,Low Risk,Regular Customers
+17228,8,16,9.16389423076923,0,0.0,Low Risk,Regular Customers
+15701,4,2,6.647826086956521,0,0.0,Low Risk,Regular Customers
+12447,1,243,18.326538461538465,1,1.0,High Risk,At-Risk / Fading Customers
+14722,1,147,6.4435714285714285,1,1.0,High Risk,At-Risk / Fading Customers
+12783,6,2,26.49892857142857,0,0.0,Low Risk,Regular Customers
+14167,4,39,11.2518,0,0.0,Low Risk,Regular Customers
+14732,8,8,18.38428571428572,0,0.0,Low Risk,Regular Customers
+12515,1,353,23.98125,1,1.0,High Risk,At-Risk / Fading Customers
+13044,1,291,16.983939393939394,1,1.0,High Risk,At-Risk / Fading Customers
+13439,1,255,5.253888888888889,1,1.0,High Risk,At-Risk / Fading Customers
+14029,2,63,31.177333333333333,0,0.0,Low Risk,Regular Customers
+15417,1,85,18.17142857142857,0,0.0,Low Risk,Regular Customers
+13488,13,17,21.25191943127962,0,0.0,Low Risk,Regular Customers
+15717,1,234,21.47142857142857,1,1.0,High Risk,At-Risk / Fading Customers
+15432,1,23,17.119000000000003,0,0.0,Low Risk,Regular Customers
+12545,2,75,20.0078,0,0.0,Low Risk,Regular Customers
+17340,11,30,30.352063882063884,0,0.0,Low Risk,Regular Customers
+15482,12,16,112.16247422680412,0,0.0,Low Risk,Regular Customers
+17446,2,177,13.433333333333332,1,1.0,High Risk,At-Risk / Fading Customers
+13216,1,268,66.748,1,1.0,High Risk,At-Risk / Fading Customers
+17406,3,333,19.67945945945946,1,1.0,High Risk,At-Risk / Fading Customers
+16587,1,232,17.31923076923077,1,1.0,High Risk,At-Risk / Fading Customers
+15289,3,29,16.20310344827586,0,0.0,Low Risk,Regular Customers
+12851,1,97,2.8044680851063832,1,0.97,High Risk,Regular Customers
+13080,1,179,9.68,1,1.0,High Risk,At-Risk / Fading Customers
+18241,17,10,19.93355769230769,0,0.0,Low Risk,Loyal / High-Value Customers
+17887,1,129,11.135,1,0.99,High Risk,Regular Customers
+14298,44,8,31.476664630421503,0,0.0,Low Risk,Loyal / High-Value Customers
+15940,1,311,35.8,1,1.0,High Risk,At-Risk / Fading Customers
+13629,11,23,132.07389830508475,0,0.0,Low Risk,Regular Customers
+13737,1,200,11.32,1,1.0,High Risk,At-Risk / Fading Customers
+13792,2,66,15.042307692307691,0,0.0,Low Risk,Regular Customers
+17957,1,66,3.6025806451612907,0,0.0,Low Risk,Regular Customers
+16997,3,288,58.5,1,1.0,High Risk,At-Risk / Fading Customers
+14276,3,99,17.4959375,1,1.0,High Risk,Regular Customers
+17377,20,24,10.045346534653463,0,0.0,Low Risk,Loyal / High-Value Customers
+14528,1,37,20.23444444444444,0,0.0,Low Risk,Regular Customers
+13928,4,11,17.206296296296298,0,0.0,Low Risk,Regular Customers
+13936,1,180,14.483846153846152,1,1.0,High Risk,At-Risk / Fading Customers
+15661,2,317,61.96,1,1.0,High Risk,At-Risk / Fading Customers
+15493,5,33,6.759204152249136,0,0.0,Low Risk,Regular Customers
+12476,11,16,29.255021459227468,0,0.0,Low Risk,Regular Customers
+16807,3,143,16.740149253731342,1,1.0,High Risk,At-Risk / Fading Customers
+16020,3,17,18.500217391304343,0,0.0,Low Risk,Regular Customers
+17651,10,12,17.004310344827587,0,0.0,Low Risk,Regular Customers
+17490,7,1,27.53052631578948,0,0.0,Low Risk,Regular Customers
+15290,18,5,38.93735294117647,0,0.0,Low Risk,Loyal / High-Value Customers
+12367,1,4,15.354545454545455,0,0.0,Low Risk,Regular Customers
+17550,3,197,6.360952380952382,1,1.0,High Risk,At-Risk / Fading Customers
+15729,1,213,17.0,1,1.0,High Risk,At-Risk / Fading Customers
+13539,3,86,17.063243243243242,0,0.0,Low Risk,Regular Customers
+17589,4,60,9.502648221343874,0,0.0,Low Risk,Regular Customers
+18085,2,330,23.79137931034483,1,1.0,High Risk,At-Risk / Fading Customers
+17041,3,27,15.528840579710144,0,0.0,Low Risk,Regular Customers
+13239,1,262,15.693333333333332,1,1.0,High Risk,At-Risk / Fading Customers
+12414,3,217,31.245000000000005,1,1.0,High Risk,At-Risk / Fading Customers
+16230,2,190,15.486571428571429,1,1.0,High Risk,At-Risk / Fading Customers
+14368,1,320,19.375,1,1.0,High Risk,At-Risk / Fading Customers
+15963,2,20,16.812857142857144,0,0.0,Low Risk,Regular Customers
+15473,7,14,161.01818181818183,0,0.0,Low Risk,Regular Customers
+15300,1,64,17.73,0,0.0,Low Risk,Regular Customers
+14784,2,26,19.332666666666668,0,0.0,Low Risk,Regular Customers
+16517,1,277,9.57058823529412,1,1.0,High Risk,At-Risk / Fading Customers
+16751,1,31,70.5888,0,0.0,Low Risk,Regular Customers
+14128,2,61,13.858695652173912,0,0.0,Low Risk,Regular Customers
+14234,4,22,5.130068027210885,0,0.0,Low Risk,Regular Customers
+16013,47,4,267.126618705036,0,0.01,Low Risk,Loyal / High-Value Customers
+15050,3,25,22.86434210526316,0,0.0,Low Risk,Regular Customers
+16823,1,227,9.431052631578948,1,1.0,High Risk,At-Risk / Fading Customers
+14148,1,234,52.4,1,1.0,High Risk,At-Risk / Fading Customers
+12997,4,22,20.794745762711862,0,0.0,Low Risk,Regular Customers
+16029,63,39,335.4806639004149,0,0.02,Low Risk,VIP Customers
+12653,2,149,51.391860465116274,1,1.0,High Risk,At-Risk / Fading Customers
+15399,3,1,16.3154,0,0.0,Low Risk,Regular Customers
+14875,2,108,31.17702127659574,1,1.0,High Risk,Regular Customers
+18095,2,313,27.62142857142857,1,1.0,High Risk,At-Risk / Fading Customers
+16056,1,45,9.859848484848484,0,0.0,Low Risk,Regular Customers
+14688,21,8,17.219444444444445,0,0.0,Low Risk,Loyal / High-Value Customers
+16591,1,69,21.35,0,0.0,Low Risk,Regular Customers
+12756,1,87,28.02,0,0.0,Low Risk,Regular Customers
+16433,1,28,10.838823529411764,0,0.0,Low Risk,Regular Customers
+15985,2,123,30.876216216216218,1,1.0,High Risk,Regular Customers
+17602,6,2,9.173176043557168,0,0.0,Low Risk,Regular Customers
+15518,8,64,9.150238095238096,0,0.0,Low Risk,Regular Customers
+15822,2,3,26.83242424242424,0,0.0,Low Risk,Regular Customers
+13134,4,86,18.301836734693875,0,0.01,Low Risk,Regular Customers
+12556,2,50,5.038319327731092,0,0.01,Low Risk,Regular Customers
+12621,20,2,29.31406852248394,0,0.0,Low Risk,Loyal / High-Value Customers
+16377,1,267,135.24,1,1.0,High Risk,At-Risk / Fading Customers
+17857,23,4,497.76,0,0.0,Low Risk,Loyal / High-Value Customers
+17272,4,42,18.847631578947368,0,0.0,Low Risk,Regular Customers
+14675,1,16,6.148041237113402,0,0.0,Low Risk,Regular Customers
+16438,5,6,6.04810606060606,0,0.0,Low Risk,Regular Customers
+16493,4,80,24.13625,0,0.0,Low Risk,Regular Customers
+14299,9,8,27.73160839160839,0,0.0,Low Risk,Regular Customers
+15776,1,133,13.423333333333334,1,1.0,High Risk,Regular Customers
+17863,6,59,21.35135135135135,0,0.0,Low Risk,Regular Customers
+14873,1,210,18.56,1,1.0,High Risk,At-Risk / Fading Customers
+13955,2,154,9.786666666666664,1,0.97,High Risk,At-Risk / Fading Customers
+13479,2,201,20.063333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+14206,1,239,16.407999999999998,1,1.0,High Risk,At-Risk / Fading Customers
+14306,2,51,63.4339393939394,0,0.01,Low Risk,Regular Customers
+16407,10,13,12.379047619047618,0,0.0,Low Risk,Regular Customers
+18242,4,72,28.62166666666667,0,0.01,Low Risk,Regular Customers
+14869,2,9,10.306428571428572,0,0.0,Low Risk,Regular Customers
+17299,4,12,11.938363636363636,0,0.0,Low Risk,Regular Customers
+14709,13,15,25.10734693877551,0,0.01,Low Risk,Regular Customers
+15494,2,21,10.49655737704918,0,0.0,Low Risk,Regular Customers
+13781,1,251,7.52,1,0.98,High Risk,At-Risk / Fading Customers
+14349,1,10,4.306451612903226,0,0.0,Low Risk,Regular Customers
+15568,3,3,14.307358490566036,0,0.0,Low Risk,Regular Customers
+18055,10,7,18.88642458100559,0,0.0,Low Risk,Regular Customers
+16275,1,197,16.965757575757575,1,1.0,High Risk,At-Risk / Fading Customers
+13115,4,12,19.12316666666667,0,0.0,Low Risk,Regular Customers
+16912,11,29,25.5558,0,0.0,Low Risk,Regular Customers
+17186,2,47,72.0,0,0.01,Low Risk,Regular Customers
+17236,6,13,8.725047619047618,0,0.0,Low Risk,Regular Customers
+15521,8,40,16.217297297297296,0,0.0,Low Risk,Regular Customers
+13506,2,316,17.635384615384616,1,1.0,High Risk,At-Risk / Fading Customers
+13956,5,5,6.933809523809524,0,0.0,Low Risk,Regular Customers
+12498,3,21,17.55217391304348,0,0.0,Low Risk,Regular Customers
+17738,4,19,19.37164948453608,0,0.0,Low Risk,Regular Customers
+14476,1,257,11.352941176470589,1,1.0,High Risk,At-Risk / Fading Customers
+12735,2,315,18.12953488372093,1,1.0,High Risk,At-Risk / Fading Customers
+15565,2,50,21.645000000000003,0,0.0,Low Risk,Regular Customers
+17987,1,185,15.274615384615384,1,1.0,High Risk,At-Risk / Fading Customers
+14040,12,41,15.547248908296943,0,0.0,Low Risk,Regular Customers
+14997,3,46,21.007692307692302,0,0.0,Low Risk,Regular Customers
+17506,1,76,21.585714285714285,0,0.0,Low Risk,Regular Customers
+12560,4,5,20.323904761904764,0,0.0,Low Risk,Regular Customers
+15006,1,51,3.639242424242424,0,0.0,Low Risk,Regular Customers
+15677,1,49,19.916060606060608,0,0.0,Low Risk,Regular Customers
+15382,6,15,19.7208940397351,0,0.0,Low Risk,Regular Customers
+15224,2,358,23.005714285714284,1,1.0,High Risk,At-Risk / Fading Customers
+13712,1,247,22.884,1,1.0,High Risk,At-Risk / Fading Customers
+13500,3,23,17.950307692307693,0,0.0,Low Risk,Regular Customers
+14023,2,7,18.840967741935486,0,0.0,Low Risk,Regular Customers
+15691,1,252,68.4,1,1.0,High Risk,At-Risk / Fading Customers
+18116,8,68,3.781967654986523,0,0.0,Low Risk,Regular Customers
+14401,13,4,22.26087912087912,0,0.0,Low Risk,Regular Customers
+15047,1,270,15.61909090909091,1,1.0,High Risk,At-Risk / Fading Customers
+14098,1,37,7.016666666666667,0,0.0,Low Risk,Regular Customers
+13908,4,80,19.42254098360656,0,0.0,Low Risk,Regular Customers
+15054,2,12,2.6500000000000004,0,0.0,Low Risk,Regular Customers
+13596,2,6,4.548698630136986,0,0.0,Low Risk,Regular Customers
+16893,1,367,3.242888888888889,1,1.0,High Risk,At-Risk / Fading Customers
+18223,14,5,23.840220588235294,0,0.0,Low Risk,Regular Customers
+12838,2,34,5.599583333333333,0,0.0,Low Risk,Regular Customers
+17047,3,85,16.93692307692308,0,0.0,Low Risk,Regular Customers
+12729,1,114,17.423461538461538,1,1.0,High Risk,Regular Customers
+16806,4,103,8.195268817204301,1,1.0,High Risk,Regular Customers
+15618,4,33,17.263355555555556,0,0.0,Low Risk,Regular Customers
+12514,1,267,19.95450980392157,1,1.0,High Risk,At-Risk / Fading Customers
+17535,1,280,12.646153846153847,1,1.0,High Risk,At-Risk / Fading Customers
+15101,2,9,39.69125,0,0.0,Low Risk,Regular Customers
+13126,8,5,14.997428571428571,0,0.0,Low Risk,Regular Customers
+16877,6,12,5.427051282051282,0,0.0,Low Risk,Regular Customers
+16113,1,183,5.379333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+16961,1,116,16.726428571428574,1,1.0,High Risk,Regular Customers
+14733,12,16,47.455,0,0.0,Low Risk,Regular Customers
+13276,2,64,19.69766666666667,0,0.0,Low Risk,Regular Customers
+16692,2,256,425.3333333333333,1,1.0,High Risk,At-Risk / Fading Customers
+16881,1,67,432.0,0,0.03,Low Risk,Regular Customers
+13752,6,124,15.671733333333334,1,1.0,High Risk,At-Risk / Fading Customers
+17038,1,30,5.109090909090909,0,0.02,Low Risk,Regular Customers
+14984,2,19,5.188974358974359,0,0.02,Low Risk,Regular Customers
+13390,1,75,41.8523076923077,0,0.0,Low Risk,Regular Customers
+15225,1,234,17.8,1,1.0,High Risk,At-Risk / Fading Customers
+16114,1,171,16.968750000000004,1,1.0,High Risk,At-Risk / Fading Customers
+17929,4,11,168.6,0,0.0,Low Risk,Regular Customers
