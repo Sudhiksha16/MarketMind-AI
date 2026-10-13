@@ -491,3 +491,100 @@ def protected_business_analytics(
         "role":
             user["role"]
     }
+
+
+# --------------------------------------------------
+# MARKETMIND AI: RECOMMENDATIONS, CHURN AND ANOMALIES
+# --------------------------------------------------
+
+from fastapi import HTTPException
+
+
+# Locate the generated Milestone 3 output files.
+RECOMMENDATIONS_DIR = (
+    PROJECT_ROOT / "Milestone3" / "recommendations" / "processed"
+)
+
+CHURN_DIR = PROJECT_ROOT / "Milestone3" / "churn" / "processed"
+
+ANOMALY_DIR = PROJECT_ROOT / "Milestone3" / "anomaly" / "processed"
+
+
+def read_output_csv(file_path: Path):
+    """Read a generated CSV and return JSON-friendly records."""
+    if not file_path.exists():
+        raise HTTPException(
+            status_code=404,
+            detail=f"Output file not found: {file_path.name}"
+        )
+
+    df = pd.read_csv(file_path)
+
+    # Convert missing values to JSON null values.
+    df = df.astype(object).where(pd.notna(df), None)
+
+    return df.to_dict(orient="records")
+
+
+@app.get("/recommendations")
+def get_recommendations():
+    """Return combined product recommendation results."""
+    return read_output_csv(
+        RECOMMENDATIONS_DIR / "combined_recommendations.csv"
+    )
+
+
+@app.get("/recommendations/sample")
+def get_sample_recommendations():
+    """Return sample personalized recommendations."""
+    return read_output_csv(
+        RECOMMENDATIONS_DIR / "sample_recommendations.csv"
+    )
+
+
+@app.get("/recommendations/association-rules")
+def get_association_rules():
+    """Return product association rules based on orders."""
+    return read_output_csv(
+        RECOMMENDATIONS_DIR / "association_rules_order_based.csv"
+    )
+
+
+@app.get("/churn/predictions")
+def get_churn_predictions():
+    """Return customer churn predictions and risk categories."""
+    return read_output_csv(
+        CHURN_DIR / "customer_churn_predictions.csv"
+    )
+
+
+@app.get("/churn/model-comparison")
+def get_churn_model_comparison():
+    """Return the evaluated churn model metrics."""
+    return read_output_csv(
+        CHURN_DIR / "churn_model_comparison.csv"
+    )
+
+
+@app.get("/anomalies/alerts")
+def get_anomaly_alerts():
+    """Return generated anomaly alerts."""
+    return read_output_csv(
+        ANOMALY_DIR / "anomaly_alerts.csv"
+    )
+
+
+@app.get("/anomalies/statistical")
+def get_statistical_anomalies():
+    """Return statistical Z-score anomalies."""
+    return read_output_csv(
+        ANOMALY_DIR / "statistical_anomalies.csv"
+    )
+
+
+@app.get("/anomalies/isolation-forest")
+def get_isolation_forest_anomalies():
+    """Return Isolation Forest anomaly results."""
+    return read_output_csv(
+        ANOMALY_DIR / "isolation_forest_anomalies.csv"
+    )
