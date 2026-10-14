@@ -65,7 +65,9 @@ app.add_middleware(
     CORSMiddleware,
 
     # Allow requests from our React development server.
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173",
+    "https://marketmind-api-frontend.onrender.com",
+    ],
 
     # Allow cookies/authentication later.
     allow_credentials=True,
